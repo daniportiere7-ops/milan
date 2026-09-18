@@ -1,0 +1,1469 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B1112">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Милан">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="description" content="План поступления в Politecnico di Milano: маршрут, бюджет, жильё, работа, вузы и документы.">
+<link rel="icon" href="icon-192.png">
+<style>html,body{background:#0B1112}@media (prefers-color-scheme: light){html:not([data-theme="dark"]),html:not([data-theme="dark"]) body{background:#EDF2F1}}
+:root{padding-top:env(safe-area-inset-top, 0px);padding-bottom:env(safe-area-inset-bottom, 0px)}
+img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Маршрут в Милан</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;500&family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap">
+<style>
+:root{
+  color-scheme: dark;
+  --bg:#0B1112; --bg-raise:#10181A; --surface:#141D1F; --surface-2:#1A2527; --line:#223033; --line-strong:#34474C;
+  --text:#E4ECEB; --text-2:#B3C1C1; --muted:#819395;
+  --accent:#34D3C6; --accent-hi:#72E6DC; --accent-soft:rgba(52,211,198,.13); --accent-ink:#03201E;
+  --warn:#EFB14A; --warn-soft:rgba(239,177,74,.13); --crit:#FF7A6B; --crit-soft:rgba(255,122,107,.13);
+  --seg-1:#34D3C6; --seg-2:#1B8A81; --seg-3:#C7A36B; --seg-4:#4F6366;
+  --shadow:0 20px 44px -30px rgba(0,0,0,.85);
+  --r-m:12px; --r-l:18px;
+  --f-display:"Unbounded","Onest",system-ui,sans-serif;
+  --f-body:"Onest",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --nav-h:62px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    color-scheme: light;
+    --bg:#EDF2F1; --bg-raise:#F6F9F8; --surface:#FFFFFF; --surface-2:#E4ECEA; --line:#D2DDDA; --line-strong:#AFC1BD;
+    --text:#0D191A; --text-2:#2E3F41; --muted:#56686A;
+    --accent:#007A71; --accent-hi:#005C55; --accent-soft:rgba(0,122,113,.10); --accent-ink:#FFFFFF;
+    --warn:#935E00; --warn-soft:rgba(190,122,0,.12); --crit:#B3392D; --crit-soft:rgba(179,57,45,.10);
+    --seg-1:#007A71; --seg-2:#5CB7AE; --seg-3:#B88E55; --seg-4:#A2B2B0;
+    --shadow:0 20px 44px -32px rgba(16,48,46,.35);
+  }
+}
+:root[data-theme="light"]{
+  color-scheme: light;
+  --bg:#EDF2F1; --bg-raise:#F6F9F8; --surface:#FFFFFF; --surface-2:#E4ECEA; --line:#D2DDDA; --line-strong:#AFC1BD;
+  --text:#0D191A; --text-2:#2E3F41; --muted:#56686A;
+  --accent:#007A71; --accent-hi:#005C55; --accent-soft:rgba(0,122,113,.10); --accent-ink:#FFFFFF;
+  --warn:#935E00; --warn-soft:rgba(190,122,0,.12); --crit:#B3392D; --crit-soft:rgba(179,57,45,.10);
+  --seg-1:#007A71; --seg-2:#5CB7AE; --seg-3:#B88E55; --seg-4:#A2B2B0;
+  --shadow:0 20px 44px -32px rgba(16,48,46,.35);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 15px/1.55 var(--f-body);-webkit-font-smoothing:antialiased;padding-bottom:calc(var(--nav-h) + env(safe-area-inset-bottom, 0px) + 28px)}
+.app{padding-inline:16px}
+.wrap{max-width:760px;margin-inline:auto}
+a{color:var(--accent);text-underline-offset:2px}
+a:hover{color:var(--accent-hi)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{text-wrap:balance}
+p{margin:0}
+.mono{font-family:var(--f-mono)}
+.kicker{font:500 11px/1.35 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.src{font:400 11.5px/1.6 var(--f-mono);color:var(--muted)}
+.src a{color:var(--muted);text-decoration-color:var(--line-strong)}
+.src a:hover{color:var(--text-2)}
+i.it{font-style:italic}
+
+/* header */
+.top{padding-block:26px 18px}
+.eyebrow{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.eyebrow b{color:var(--accent);font-weight:500}
+h1{font:600 clamp(31px,9vw,50px)/1.02 var(--f-display);letter-spacing:-.025em;margin:14px 0 12px}
+h1 span{color:var(--accent)}
+.lede{color:var(--text-2);margin-bottom:18px;max-width:58ch}
+.meta{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
+.progress{flex:1 1 220px;min-width:0}
+.progress-num{font:400 12.5px/1 var(--f-mono);color:var(--text-2);margin-bottom:9px}
+.progress-num b{color:var(--text);font-weight:500;font-size:15px}
+.bar{height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);border-radius:3px;transition:width .45s ease}
+.sync{display:inline-flex;align-items:center;gap:8px;font:400 11px/1 var(--f-mono);color:var(--muted);padding:7px 10px;border:1px solid var(--line);border-radius:999px;white-space:nowrap}
+.sync i{width:7px;height:7px;border-radius:50%;background:var(--muted);flex:none}
+.sync[data-s="cloud"] i{background:var(--accent)}
+.sync[data-s="saving"] i,.sync[data-s="pending"] i{background:var(--warn)}
+.sync[data-s="readonly"] i{background:var(--crit)}
+.setup{display:flex;align-items:center;justify-content:space-between;gap:10px 14px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-m);padding:12px 14px;margin:18px 0 0;font-size:13.5px;color:var(--text-2)}
+.setup[data-on="1"]{background:var(--accent-soft);border-color:transparent}
+.btn.small{padding:9px 12px;font-size:13px}
+.btn.ghost{border-color:var(--line-strong);background:none;color:var(--text-2)}
+.btn.ghost:hover{background:var(--surface-2);color:var(--text);border-color:var(--line-strong)}
+.dlg{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:var(--r-l);padding:18px;max-width:min(520px,92vw);width:100%;box-shadow:var(--shadow);font:400 15px/1.55 var(--f-body)}
+.dlg::backdrop{background:rgba(0,0,0,.55)}
+.dlg h3{margin:0 0 10px;font:600 17px/1.3 var(--f-display)}
+.dlg-p{font-size:13.5px;color:var(--text-2);margin-bottom:10px}
+.dlg textarea{width:100%;font:400 12.5px/1.5 var(--f-mono);color:var(--text);background:var(--bg);border:1px solid var(--line-strong);border-radius:10px;padding:10px;resize:vertical}
+.dlg textarea:focus,.dlg .link:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.dlg .link{width:100%;font:400 12.5px/1.5 var(--f-mono);color:var(--text);background:var(--bg);border:1px solid var(--line-strong);border-radius:10px;padding:10px}
+.dlg-err{color:var(--crit);font-size:13px;min-height:18px;margin-top:8px}
+.dlg-err:empty{min-height:0}
+.dlg-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+code{font:400 12.5px var(--f-mono);background:var(--surface-2);padding:2px 5px;border-radius:5px}
+
+/* tabs */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:30;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));background:var(--bg-raise);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom, 0px))}
+@supports ((backdrop-filter:blur(8px)) or (-webkit-backdrop-filter:blur(8px))){
+  .tabs{background:color-mix(in srgb, var(--bg-raise) 86%, transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+}
+.tab{appearance:none;border:0;background:none;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:4px;padding:6px 0;font:500 10.5px/1.1 var(--f-body);cursor:pointer;border-radius:10px;min-width:0}
+.tab svg{width:22px;height:22px;flex:none}
+.tab span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--accent)}
+.tab:hover{color:var(--text)}
+.tab[aria-selected="true"]:hover{color:var(--accent)}
+
+/* panels */
+.panel{padding-block:6px 20px;scroll-margin-top:76px}
+.panel h2{font:600 clamp(21px,5.6vw,26px)/1.15 var(--f-display);letter-spacing:-.015em;margin:8px 0 10px}
+.panel h3{font:600 16px/1.3 var(--f-body);margin:30px 0 10px}
+.section-lede{color:var(--text-2);margin-bottom:18px;max-width:62ch}
+
+/* now */
+.now{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-l);padding:18px;box-shadow:var(--shadow);margin-bottom:26px}
+.now .now-title{font:600 19px/1.2 var(--f-display);letter-spacing:-.01em;margin:7px 0 4px}
+.now-sub{font-size:13.5px;color:var(--text-2);margin-bottom:10px}
+.now .tasks{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.cd{display:inline-flex;gap:8px;align-items:baseline;padding:7px 10px;border-radius:10px;background:var(--surface-2);font-size:12.5px;color:var(--text-2)}
+.cd b{font:500 12.5px/1 var(--f-mono);color:var(--text)}
+.linkish{appearance:none;border:0;background:none;padding:0;font:inherit;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+
+/* route */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px 16px;margin:0 0 10px;flex-wrap:wrap}
+.switch{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;color:var(--text-2);cursor:pointer;position:relative}
+.switch input{position:absolute;opacity:0;width:1px;height:1px}
+.switch .track{width:36px;height:22px;border-radius:11px;background:var(--surface-2);border:1px solid var(--line-strong);position:relative;transition:background .2s,border-color .2s;flex:none}
+.switch .track::after{content:"";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:var(--muted);transition:transform .2s,background .2s}
+.switch input:checked + .track{background:var(--accent-soft);border-color:var(--accent)}
+.switch input:checked + .track::after{transform:translateX(14px);background:var(--accent)}
+.switch input:focus-visible + .track{outline:2px solid var(--accent);outline-offset:2px}
+.legend-line{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12px;color:var(--muted)}
+
+.route{list-style:none;margin:0;padding:0}
+.stn{position:relative;padding-left:40px}
+.stn::before{content:"";position:absolute;left:12px;top:0;bottom:0;width:6px;background:var(--line-strong)}
+.stn.past::before{background:var(--accent)}
+.stn.current::before{background:linear-gradient(to bottom,var(--accent) 0 37px,var(--line-strong) 37px)}
+.stn:first-child::before{top:37px}
+.stn:first-child.current::before{background:var(--line-strong)}
+.stn:last-child::before{bottom:auto;height:37px}
+.node{position:absolute;left:5px;top:27px;width:20px;height:20px;border-radius:50%;background:var(--bg);border:4px solid var(--line-strong);z-index:1}
+.stn.past .node,.stn.current .node{border-color:var(--accent)}
+.stn.complete .node{background:var(--accent)}
+.stn.current .node::after{content:"";position:absolute;inset:-10px;border-radius:50%;border:2px solid var(--accent);opacity:0;animation:ping 2.6s ease-out infinite}
+@keyframes ping{0%{transform:scale(.55);opacity:.7}100%{transform:scale(1.2);opacity:0}}
+@media (prefers-reduced-motion: reduce){.stn.current .node::after{animation:none;opacity:.35;transform:none}.bar i{transition:none}}
+.stn summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;align-items:center;padding:9px 10px 9px 8px;border-radius:var(--r-m)}
+.stn summary::-webkit-details-marker{display:none}
+.stn summary:hover{background:var(--surface)}
+.code{font:500 11px/1.3 var(--f-mono);letter-spacing:.08em;color:var(--muted);text-transform:uppercase;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.here{font:600 10px/1 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent);padding:4px 7px;border-radius:999px}
+.sname{font:600 18px/1.2 var(--f-display);letter-spacing:-.01em}
+.stn.future .sname{color:var(--text-2)}
+.count{grid-row:1 / span 2;grid-column:2;font:500 12px/1 var(--f-mono);color:var(--text-2);display:flex;align-items:center;gap:10px}
+.chev{width:16px;height:16px;transition:transform .2s;color:var(--muted)}
+details[open] > summary .chev{transform:rotate(180deg)}
+.tasks{list-style:none;margin:2px 0 16px;padding:0;display:grid;gap:2px}
+.task{display:grid;grid-template-columns:24px minmax(0,1fr);gap:12px;padding:10px 10px 10px 8px;border-radius:var(--r-m)}
+.task:hover{background:var(--surface)}
+.now .task:hover{background:var(--surface-2)}
+.cb{position:relative;width:24px;height:24px;margin-top:1px}
+.cb input{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;cursor:pointer;z-index:1}
+.cb .box{position:absolute;inset:0;border-radius:7px;border:2px solid var(--line-strong);background:var(--bg);display:grid;place-items:center;transition:background .15s,border-color .15s}
+.cb .box svg{width:14px;height:14px;opacity:0;transform:scale(.6);transition:opacity .15s,transform .15s;color:var(--accent-ink)}
+.cb input:checked + .box{background:var(--accent);border-color:var(--accent)}
+.cb input:checked + .box svg{opacity:1;transform:none}
+.cb input:focus-visible + .box{outline:2px solid var(--accent);outline-offset:2px}
+.cb input:hover + .box{border-color:var(--accent)}
+.t-title{display:block;font-weight:500;color:var(--text);cursor:pointer}
+.task.done .t-title{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line-strong)}
+.t-detail{font-size:13.5px;color:var(--text-2);margin-top:3px;max-width:64ch}
+.task.done .t-detail{display:none}
+.t-meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:8px}
+.t-meta:empty{display:none}
+.chip{font:500 10px/1 var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 8px;white-space:nowrap}
+.chip.due{color:var(--text-2);border-color:var(--line-strong)}
+.chip.soon{color:var(--warn);border-color:transparent;background:var(--warn-soft)}
+.chip.late{color:var(--crit);border-color:transparent;background:var(--crit-soft)}
+.chip.cond{border-style:dashed}
+.t-link{font-size:12.5px;white-space:nowrap}
+.hide-done .route .task.done{display:none}
+.route-foot{margin-top:6px;padding-left:40px}
+
+/* money */
+.seg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.seg button{appearance:none;border:0;background:none;color:var(--text-2);font:500 13px/1.25 var(--f-body);padding:10px 6px;border-radius:10px;cursor:pointer}
+.seg button:hover{color:var(--text)}
+.seg button[aria-checked="true"]{background:var(--accent);color:var(--accent-ink)}
+.scn-note{font-size:13.5px;color:var(--text-2);margin:12px 0 6px;max-width:64ch}
+.group-label{padding:18px 0 6px}
+.form{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.row label{font-weight:500}
+.row .hint{grid-column:1;font-size:12.5px;color:var(--muted)}
+.row .ctrl{grid-row:1 / span 2;grid-column:2;display:flex;align-items:center;gap:6px}
+.row.wide .ctrl{grid-row:auto;grid-column:1 / -1;margin-top:6px}
+.num{width:96px;font:500 15px/1 var(--f-mono);color:var(--text);background:var(--surface);border:1px solid var(--line-strong);border-radius:10px;padding:10px;text-align:right;-moz-appearance:textfield}
+.num::-webkit-outer-spin-button,.num::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.num:focus,.sel:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.unit{font:400 11.5px/1 var(--f-mono);color:var(--muted);min-width:34px}
+.sel{width:100%;font:500 14px/1.2 var(--f-body);color:var(--text);background:var(--surface);border:1px solid var(--line-strong);border-radius:10px;padding:11px 10px}
+.result{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-l);padding:18px;box-shadow:var(--shadow)}
+.res-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px;align-items:start}
+.res-top .kicker{margin-bottom:8px}
+.big{font:600 clamp(24px,7.2vw,34px)/1 var(--f-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big small{display:block;font:400 12.5px/1.2 var(--f-body);color:var(--muted);letter-spacing:0;margin-top:6px}
+.wc-out .big small{display:inline;margin:0 0 0 6px}
+.status{font-size:14px;font-weight:500;padding:9px 12px;border-radius:10px;margin-top:14px}
+.status.ok{color:var(--accent);background:var(--accent-soft)}
+.status.bad{color:var(--warn);background:var(--warn-soft)}
+.stack{position:relative;height:16px;border-radius:8px;background:var(--surface-2);display:flex;margin:22px 0 34px}
+.stack .s{height:100%}
+.stack .s:first-child{border-radius:8px 0 0 8px}
+.limit{position:absolute;top:-6px;bottom:-6px;width:2px;margin-left:-1px;background:var(--text);border-radius:1px}
+.limit span{position:absolute;top:calc(100% + 5px);left:0;white-space:nowrap;font:400 11px/1 var(--f-mono);color:var(--text-2)}
+.limit.flip span{left:auto;right:0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12.5px;color:var(--text-2)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.kv{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;margin:16px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:14px}
+.kv dt{color:var(--text-2)}
+.kv dd{margin:0;font:500 13.5px/1.5 var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-m);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font:500 10.5px/1.3 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n,th.n{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+tbody tr:last-child td{border-bottom:0}
+tr.hl td{color:var(--accent)}
+.facts{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.facts li{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;font-size:14px;color:var(--text-2)}
+.facts li b{color:var(--text);font-weight:600}
+.pair{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:700px){.pair{grid-template-columns:1fr 1fr}}
+.box-soft{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-l);padding:16px;display:grid;gap:10px;align-content:start}
+.box-soft h4{margin:0;font:600 15px/1.3 var(--f-body)}
+.amount{font:600 24px/1 var(--f-display);letter-spacing:-.01em;color:var(--accent)}
+.amount small{font:400 12.5px/1 var(--f-body);color:var(--muted);margin-left:6px;letter-spacing:0}
+.costs .row{grid-template-columns:minmax(0,1fr) auto}
+.costs .row .val{grid-row:1 / span 2;grid-column:2;font:500 13.5px/1.4 var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.costs .total{font-weight:600}
+.costs .total .val{color:var(--accent)}
+.hbars{display:grid;gap:10px;margin-top:10px}
+.hb{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px;align-items:center;font-size:13.5px}
+.hb .track{position:relative;height:24px}
+.hb .fill{height:100%;background:var(--seg-2);border-radius:4px}
+.hb.hl .fill{background:var(--accent)}
+.hb .val{position:absolute;top:50%;transform:translateY(-50%);font:500 12px/1 var(--f-mono);color:var(--text);padding-left:8px;white-space:nowrap}
+.hb .val.in{transform:translate(-100%,-50%);padding:0 8px 0 0;color:var(--accent-ink)}
+.hb:not(.hl) .val.in{color:#fff}
+.axis{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px;font:400 10.5px/1 var(--f-mono);color:var(--muted);margin-top:4px}
+.axis .ticks{position:relative;height:16px;border-top:1px solid var(--line-strong)}
+.axis .ticks span{position:absolute;top:5px;transform:translateX(-50%)}
+.axis .ticks span:first-child{transform:none}
+.axis .ticks span:last-child{transform:translateX(-100%)}
+
+/* lists */
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.item{padding:15px 0;border-bottom:1px solid var(--line);display:grid;gap:7px}
+.item-head{display:flex;justify-content:space-between;gap:4px 14px;align-items:baseline;flex-wrap:wrap}
+.item-title{font-weight:600;font-size:15.5px}
+.price{font:500 12.5px/1.3 var(--f-mono);color:var(--accent);white-space:nowrap}
+.item p{color:var(--text-2);font-size:14px;max-width:64ch}
+.item .src{margin-top:2px;font:400 11.5px/1.6 var(--f-mono);color:var(--muted)}
+.item .note{font-size:13px;color:var(--muted)}
+.costs .row > span:first-child{font-weight:500}
+ol.rank{counter-reset:r}
+ol.rank > .item{grid-template-columns:30px minmax(0,1fr);column-gap:12px}
+ol.rank > .item > *{grid-column:2}
+ol.rank > .item::before{counter-increment:r;content:counter(r);grid-column:1;grid-row:1 / span 6;font:500 12.5px/30px var(--f-mono);width:30px;height:30px;border-radius:50%;text-align:center;background:var(--accent-soft);color:var(--accent)}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:12.5px;padding:6px 10px;border-radius:999px;border:1px solid var(--line-strong);color:var(--text);text-decoration:none;background:var(--surface)}
+.pill:hover{border-color:var(--accent);color:var(--accent)}
+.pill em{font-style:normal;color:var(--muted)}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.checks li{position:relative;padding-left:26px;color:var(--text-2);font-size:14px;max-width:64ch}
+.checks li::before{content:"";position:absolute;left:3px;top:7px;width:10px;height:6px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.callout{background:var(--warn-soft);border-radius:var(--r-m);padding:12px 14px;font-size:13.5px;color:var(--text)}
+.callout b{color:var(--warn)}
+
+/* work calc */
+.wcalc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-l);padding:16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 14px;margin-bottom:8px;box-shadow:var(--shadow)}
+.wcalc .field{display:grid;gap:6px}
+.wcalc .field label{font-size:13px;color:var(--text-2)}
+.wcalc .num{width:100%;text-align:left}
+.wc-out{grid-column:1 / -1;display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+.wcalc #wGap{grid-column:1 / -1;font-size:13.5px;color:var(--text-2)}
+.btn{grid-column:1 / -1;justify-self:start;appearance:none;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);font:600 13.5px/1 var(--f-body);padding:11px 14px;border-radius:10px;cursor:pointer}
+.btn:hover{background:var(--accent);color:var(--accent-ink)}
+.dl{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;margin:0}
+.dl dt{font:500 10.5px/1.4 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+.dl dt:first-child{margin-top:0}
+.dl dd{margin:0;color:var(--text-2);font-size:14px;max-width:64ch}
+.dl dd b{color:var(--text)}
+
+/* schools */
+.plan4{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;margin-bottom:22px}
+@media (min-width:700px){.plan4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.plan4 div{background:var(--surface);padding:12px}
+.plan4 b{display:block;font:500 10.5px/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.plan4 span{font-size:13.5px;color:var(--text-2)}
+.cards{display:grid;gap:14px}
+@media (min-width:700px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-l);padding:16px;display:flex;flex-direction:column;gap:10px}
+.card.main{border-color:var(--accent)}
+.card h3{margin:0;font:600 15.5px/1.3 var(--f-display);letter-spacing:-.005em}
+.card .sub{font-size:13px;color:var(--text-2);margin-top:-6px}
+.badge{align-self:flex-start;font:500 10px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:999px;background:var(--surface-2);color:var(--text-2)}
+.card.main .badge{background:var(--accent);color:var(--accent-ink)}
+.card .dl dd{font-size:13.5px;color:var(--text)}
+.card .why{font-size:13.5px;color:var(--text-2);border-top:1px solid var(--line);padding-top:10px;margin-top:auto}
+.card .src{margin-top:-2px}
+
+/* docs */
+.doc-group{margin-top:26px}
+.doc-group:first-of-type{margin-top:8px}
+
+.foot{padding-block:22px 8px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);margin-top:26px;display:grid;gap:6px}
+
+@media (min-width:820px){
+  body{padding-bottom:40px}
+  .top{padding-block:40px 20px}
+  .tabs{position:sticky;top:env(safe-area-inset-top, 0px);bottom:auto;left:auto;right:auto;display:flex;flex-wrap:wrap;gap:4px;border-top:0;border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:22px;background:var(--bg);backdrop-filter:none;-webkit-backdrop-filter:none}
+  .tab{flex-direction:row;gap:8px;font-size:13.5px;padding:9px 12px}
+  .tab svg{width:18px;height:18px}
+  .tab[aria-selected="true"]{background:var(--accent-soft)}
+}
+</style>
+
+<div class="app">
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow kicker">Mosca <b>→</b> Milano Bovisa <span aria-hidden="true">·</span> set 2026 – set 2027</div>
+  <h1>Маршрут в&nbsp;<span>Милан</span></h1>
+  <p class="lede">Поступление на Design della Comunicazione в Politecnico di Milano, запасные вузы, деньги, жильё и подработка — одним планом. Отмечай шаги, прогресс сохраняется.</p>
+  <div class="meta">
+    <div class="progress">
+      <div class="progress-num"><b id="doneCount">0</b> из <span id="totalCount">0</span> шагов</div>
+      <div class="bar" role="progressbar" aria-label="Выполнено шагов" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressWrap"><i id="progressBar"></i></div>
+    </div>
+    <span class="sync" id="sync" data-s="init" role="status"><i></i><span>подключаюсь…</span></span>
+  </div>
+</header>
+
+<div class="setup" id="setupBar" hidden>
+  <span id="setupText"></span>
+  <button class="btn small" id="setupBtn" type="button">Настроить синхронизацию</button>
+</div>
+
+<dialog class="dlg" id="setupDlg">
+  <h3>Общая синхронизация</h3>
+  <div id="setupForm">
+    <p class="dlg-p">Открой настройки своего проекта в Firebase, найди блок <code>const firebaseConfig = {…}</code> и вставь его сюда целиком.</p>
+    <textarea id="cfgText" rows="7" spellcheck="false" placeholder="const firebaseConfig = {
+  apiKey: &quot;...&quot;,
+  projectId: &quot;...&quot;,
+  appId: &quot;...&quot;
+};"></textarea>
+    <p class="dlg-err" id="setupErr"></p>
+    <div class="dlg-actions"><button class="btn" id="setupSave" type="button">Подключить</button><button class="btn ghost dlg-close" type="button">Закрыть</button></div>
+  </div>
+  <div id="setupDone" hidden>
+    <p class="dlg-p">Отправь эту ссылку маме — у неё откроется тот же план, а отметки и бюджет будут общими.</p>
+    <input id="shareLink" class="link" readonly>
+    <div class="dlg-actions"><button class="btn" id="copyLink" type="button">Скопировать ссылку</button><button class="btn ghost dlg-close" type="button">Закрыть</button></div>
+  </div>
+</dialog>
+
+<nav class="tabs" role="tablist" aria-label="Разделы плана">
+  <button class="tab" role="tab" id="tab-route" aria-controls="panel-route" aria-selected="true" data-tab="route" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="18.5" r="2.2"/><circle cx="18" cy="5.5" r="2.2"/><path d="M8.2 18.5H14a3.25 3.25 0 0 0 0-6.5h-4a3.25 3.25 0 0 1 0-6.5h5.8"/></svg><span>Маршрут</span></button>
+  <button class="tab" role="tab" id="tab-money" aria-controls="panel-money" aria-selected="false" data-tab="money" tabindex="-1" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 6.2A7 7 0 1 0 17.5 17.8"/><path d="M4.5 10.3h9M4.5 13.7h9"/></svg><span>Деньги</span></button>
+  <button class="tab" role="tab" id="tab-home" aria-controls="panel-home" aria-selected="false" data-tab="home" tabindex="-1" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg><span>Жильё</span></button>
+  <button class="tab" role="tab" id="tab-work" aria-controls="panel-work" aria-selected="false" data-tab="work" tabindex="-1" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.2A1.2 1.2 0 0 1 10.2 4h3.6A1.2 1.2 0 0 1 15 5.2V7M3 12.5h18"/></svg><span>Работа</span></button>
+  <button class="tab" role="tab" id="tab-schools" aria-controls="panel-schools" aria-selected="false" data-tab="schools" tabindex="-1" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2.5 9 9.5-4.5L21.5 9 12 13.5z"/><path d="M6.5 11v5c0 1.4 2.5 3 5.5 3s5.5-1.6 5.5-3v-5M21.5 9v5"/></svg><span>Вузы</span></button>
+  <button class="tab" role="tab" id="tab-docs" aria-controls="panel-docs" aria-selected="false" data-tab="docs" tabindex="-1" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v4h4M9.5 12h5M9.5 16h5"/></svg><span>Бумаги</span></button>
+</nav>
+
+<main>
+
+<!-- ============ МАРШРУТ ============ -->
+<section class="panel" id="panel-route" role="tabpanel" aria-labelledby="tab-route">
+  <div class="now" id="now" aria-live="polite"></div>
+  <div class="toolbar">
+    <label class="switch" for="hideDone"><input type="checkbox" id="hideDone"><span class="track" aria-hidden="true"></span>Скрыть выполненные</label>
+    <div class="legend-line"><span class="chip due">≈ 26 мар</span> ориентир по датам 2026/27 <span class="chip cond">если актуально</span></div>
+  </div>
+  <ol class="route" id="route"></ol>
+  <p class="note route-foot">Правила приёма на 2027/28 выйдут зимой–весной: даты со знаком «≈» взяты из цикла 2026/27 и могут сдвинуться.</p>
+</section>
+
+<!-- ============ ДЕНЬГИ ============ -->
+<section class="panel" id="panel-money" role="tabpanel" aria-labelledby="tab-money" hidden>
+  <p class="kicker">Бюджет первого года</p>
+  <h2>Хватит ли €800 в месяц</h2>
+  <p class="section-lede">Выбери сценарий жилья и поправь цифры под себя — калькулятор покажет, укладываешься ли в лимит и сколько часов подработки закроют разницу.</p>
+
+  <div class="seg" role="radiogroup" aria-label="Сценарий жилья" id="scnGroup">
+    <button type="button" role="radio" data-scn="dsu" aria-checked="false">Стипендия DSU</button>
+    <button type="button" role="radio" data-scn="residence" aria-checked="true">Общежитие PoliMi</button>
+    <button type="button" role="radio" data-scn="room">Комната</button>
+  </div>
+  <p class="scn-note" id="scnNote"></p>
+
+  <div id="budgetForm"></div>
+
+  <div class="result" id="budgetResult" aria-live="polite">
+    <div class="res-top">
+      <div><p class="kicker">Расходы в месяц</p><div class="big" id="resExp">€0</div></div>
+      <div><p class="kicker">Нужно от семьи</p><div class="big" id="resNeed">€0</div></div>
+    </div>
+    <div class="stack" id="resStack" aria-hidden="true"></div>
+    <div class="legend" id="resLegend"></div>
+    <p class="status" id="resStatus"></p>
+    <dl class="kv">
+      <dt>Стипендия и подработка</dt><dd id="resInc">€0</dd>
+      <dt>Учёба в месяц</dt><dd id="resTuition">€0</dd>
+      <dt>От семьи за 12 месяцев</dt><dd id="resYear">€0</dd>
+    </dl>
+  </div>
+
+  <h3>Плата за учёбу в PoliMi, 2026/27</h3>
+  <p class="section-lede">Сумма зависит от ISEE. Семья за рубежом — значит, нужен <b>ISEE parificato</b>: он даёт скидку по группе дохода, но не полное освобождение (no tax area). Без ISEE — максимум.</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>ISEE семьи, €</th><th class="n">Взнос</th><th class="n">≈ с налогами</th></tr></thead>
+      <tbody>
+        <tr><td>Стипендиат DSU</td><td class="n">0</td><td class="n">≈ 146</td></tr>
+        <tr><td>до 23 120</td><td class="n">723</td><td class="n">880</td></tr>
+        <tr><td>23 121 – 27 000</td><td class="n">1 142</td><td class="n">≈ 1 330</td></tr>
+        <tr><td>27 001 – 31 000</td><td class="n">1 474</td><td class="n">≈ 1 660</td></tr>
+        <tr><td>31 001 – 40 000</td><td class="n">1 788</td><td class="n">≈ 1 975</td></tr>
+        <tr><td>40 001 – 51 000</td><td class="n">2 109</td><td class="n">≈ 2 295</td></tr>
+        <tr><td>51 001 – 63 000</td><td class="n">2 436</td><td class="n">≈ 2 625</td></tr>
+        <tr><td>63 001 – 75 000</td><td class="n">2 763</td><td class="n">≈ 2 950</td></tr>
+        <tr><td>75 001 – 95 000</td><td class="n">3 189</td><td class="n">≈ 3 375</td></tr>
+        <tr><td>от 95 001</td><td class="n">3 726</td><td class="n">≈ 3 915</td></tr>
+        <tr><td>без ISEE</td><td class="n">3 726</td><td class="n">3 943</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note" style="margin-top:10px">Первый взнос при зачислении — €880: региональный налог €130, гербовый сбор €16, страховка €11 и аванс €723. «С налогами» — взнос плюс эти сборы; для стипендиата — только налог и сбор.</p>
+  <p class="src" style="margin-top:6px">Источник: <a href="https://www.normativa.polimi.it/fileadmin/user_upload/regolamenti/studenti/D.r._regolamento_contribuzione_studentesca_2026-2027.pdf" target="_blank" rel="noopener">Regolamento contribuzione studentesca PoliMi 2026/27</a></p>
+
+  <h3>Стипендии</h3>
+  <div class="pair">
+    <div class="box-soft">
+      <p class="kicker">Главный шанс</p>
+      <h4>Borsa di studio DSU</h4>
+      <div class="amount">€7 171<small>минимум для fuori sede по стране, 2026/27</small></div>
+      <ul class="facts">
+        <li>Деньги, питание, место в общежитии со скидкой и освобождение от платы за учёбу — остаются только налоги.</li>
+        <li><span><b>Пороги:</b> по стране ISEE до €28 340 и ISPE до €61 608; регион может ставить ниже. В Ломбардии (Bicocca 2026/27) — €26 888 и €58 452.</span></li>
+        <li><span><b>Пример Ломбардии:</b> fuori sede в первой группе — €7 419 деньгами + €829 питанием; за общежитие удерживают €2 816 в год.</span></li>
+        <li><span><b>Условие:</b> первокурсник набирает кредиты к 10 августа следующего года (Bicocca — 35 CFU); последний срок — 30 ноября, иначе стипендию придётся вернуть.</span></li>
+        <li><span><b>Срок PoliMi 2026:</b> заявка первокурсников — до 5 августа, 12:00.</span></li>
+        <li><span><b>Твой случай:</b> ISEE parificato по документам из России и Германии. Если доходы отца будут учитываться, от них и зависит, пройдёшь ли порог.</span></li>
+      </ul>
+      <p class="src">Источники: <a href="https://www.pmi.it/economia/lavoro/467391/borse-di-studio-universitarie-aumentano-importi-e-soglie-isee.html" target="_blank" rel="noopener">PMI.it — декреты MUR 2026</a> · <a href="https://www.unimib.it/sites/default/files/2026-07/bando-DSU-2026-27%20def_3.pdf" target="_blank" rel="noopener">bando DSU Bicocca 2026/27</a> · <a href="https://habacus.com/it/borse-studio-milano-2026-2027/" target="_blank" rel="noopener">Habacus — сроки PoliMi</a></p>
+    </div>
+    <div class="box-soft">
+      <p class="kicker">За балл TOLD</p>
+      <h4>Борса PoliMi для fuori sede</h4>
+      <div class="amount">€3 080<small>брутто в год</small></div>
+      <ul class="facts">
+        <li>Для студентов, которые живут не дома. Первокурсникам заслуги считают по баллу вступительного теста.</li>
+        <li>Нужен ISEE или ISEEU parificato — он у тебя будет в любом случае.</li>
+        <li>Прошлый конкурс уже закрыт; следить за новым и задавать вопросы — fondomerito@polimi.it.</li>
+      </ul>
+      <p class="src">Источник: <a href="https://www.polimi.it/en/studenti/tasse-borse-e-agevolazioni/borse-di-studio-non-dsu-e-premi-di-laurea/scholarships-for-deserving-students-away-from-home" target="_blank" rel="noopener">PoliMi — borse per fuori sede meritevoli</a></p>
+    </div>
+  </div>
+
+  <h3>Разовые расходы до первого месяца</h3>
+  <div class="form costs" id="costs"></div>
+  <p class="note" style="margin-top:10px">Суммы с пометкой «оценка» — прикидка: проверь цены ближе к датам. Ноутбук для дизайна сюда не входит.</p>
+
+  <h3>Одноместная комната в городах из списка</h3>
+  <p class="section-lede">Средняя цена в месяц, август 2026. Для Больцано отчёт цифр не даёт: по данным unibz, частный рынок — €250–550.</p>
+  <div class="hbars" id="cityBars" role="img" aria-label="Средняя цена одноместной комнаты: Милан 704 евро, Рим 615, Турин 479, Венеция 456"></div>
+  <div class="axis" aria-hidden="true"><span></span><div class="ticks"><span>€0</span><span style="left:25%">200</span><span style="left:50%">400</span><span style="left:75%">600</span><span style="left:100%">800</span></div></div>
+  <p class="src" style="margin-top:8px">Источники: <a href="https://tg24.sky.it/economia/2026/08/04/affitti-studenti-prezzi-stanze-singole-citta-piu-care-classifica" target="_blank" rel="noopener">Sky TG24 / Immobiliare.it Insights</a> · <a href="https://guide.unibz.it/it/life-on-campus/accommodation" target="_blank" rel="noopener">unibz — alloggi</a></p>
+</section>
+
+<!-- ============ ЖИЛЬЁ ============ -->
+<section class="panel" id="panel-home" role="tabpanel" aria-labelledby="tab-home" hidden>
+  <p class="kicker">Жильё · Милан</p>
+  <h2>Где жить на €800 в месяц</h2>
+  <p class="section-lede">Одноместная комната в Милане стоит в среднем €704 — почти весь лимит. Поэтому порядок такой: сначала льготные варианты, частный рынок — последним.</p>
+
+  <ol class="list rank">
+    <li class="item">
+      <div class="item-head"><span class="item-title">Стипендия DSU с местом в общежитии</span><span class="price">удерживают из стипендии</span></div>
+      <p>У PoliMi 1 349 мест для стипендиатов в Милане, Лекко, Комо и Кремоне. Цену устанавливает регион Ломбардия и вычитает её из стипендии (для сравнения: в Bicocca 2026/27 — €2 816 за год). Условия: дорога из дома до кампуса дольше 90 минут (у тебя — другая страна), депозит €500, оффер надо принять за 48 часов и заселиться за 15 рабочих дней.</p>
+      <p class="src">Источник: <a href="https://www.residenze.polimi.it/en/preferential-rate-accomodation-for-diritto-allo-studio-dsu/" target="_blank" rel="noopener">Residenze PoliMi — DSU</a></p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Общежитие PoliMi по полной цене</span><span class="price">от €4 530 в год</span></div>
+      <p>В 2026 бронь для новых жильцов открылась 13 июля. Период — с 25 августа по 30 июля (август не входит), минимум семестр, депозит €500. Годовая оплата разом дешевле, чем пятью взносами.</p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Общежитие</th><th class="n">Двухместная</th><th class="n">Одноместная</th></tr></thead>
+          <tbody>
+            <tr class="hl"><td>Vilfredo Pareto · у Bovisa</td><td class="n">€4 830</td><td class="n">€5 335</td></tr>
+            <tr><td>Isaac Newton</td><td class="n">€4 530</td><td class="n">€5 535</td></tr>
+            <tr><td>Leonardo da Vinci</td><td class="n">€4 530</td><td class="n">€6 330</td></tr>
+            <tr><td>Albert Einstein</td><td class="n">€4 780</td><td class="n">€6 545</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Pareto — цены 2026/27 (при оплате разом €4 590 и €5 070): ванные общие на блок, прачечная, сад; рядом метро M3 Dergano, станция Villapizzone и трамвай 12. Остальные — цены 2025/26 с ежегодной индексацией.</p>
+      <p class="src">Источники: <a href="https://www.residenze.polimi.it/en/vilfredo-pareto/" target="_blank" rel="noopener">Vilfredo Pareto</a> · <a href="https://www.residenze.polimi.it/en/rates/" target="_blank" rel="noopener">тарифы</a> · <a href="https://www.residenze.polimi.it/en/full-rate-accomodation/" target="_blank" rel="noopener">бронирование</a></p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Колледжи и партнёры PoliMi</span><span class="price">конкурс или скидка</span></div>
+      <p>Collegio di Milano — место по конкурсу. Fondazione RUI — скидка €1 000 в год для новых студентов PoliMi. Aparto Durando прямо у кампуса — место в двухместной от €700 в месяц: для твоего лимита дорого, но студентам PoliMi дают скидки.</p>
+      <p class="src">Источник: <a href="https://www.residenze.polimi.it/en/affiliated-companies/" target="_blank" rel="noopener">Residenze PoliMi — партнёры</a></p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Комната в квартире</span><span class="price">≈ €704 в месяц</span></div>
+      <p>Средняя одноместная по Милану в августе 2026 — €704, на 4% дешевле, чем годом раньше. Ищи рядом с кампусом Bovisa: Bovisa, Dergano, Affori, Villapizzone, Quarto Oggiaro. Пригород тоже вариант — только проверь тарифную зону ATM, чтобы хватало проездного Under 27.</p>
+      <div class="pills">
+        <a class="pill" href="https://www.idealista.it/affitto-stanze/milano-milano/" target="_blank" rel="noopener">Idealista</a>
+        <a class="pill" href="https://www.immobiliare.it/" target="_blank" rel="noopener">Immobiliare.it</a>
+        <a class="pill" href="https://www.subito.it/annunci-lombardia/affitto/camere-posti-letto/milano/" target="_blank" rel="noopener">Subito</a>
+        <a class="pill" href="https://milano.bakeca.it/annunci/offro-camera/" target="_blank" rel="noopener">Bakeca</a>
+        <a class="pill" href="https://www.spotahome.com/" target="_blank" rel="noopener">Spotahome <em>· код POLIMI30</em></a>
+        <a class="pill" href="https://housinganywhere.com/" target="_blank" rel="noopener">HousingAnywhere <em>· −30% комиссии</em></a>
+        <a class="pill" href="https://www.dovevivo.com/" target="_blank" rel="noopener">DoveVivo <em>· −10% аренды</em></a>
+      </div>
+      <p class="note">Скидки для студентов PoliMi: код и ссылки — на странице партнёров Residenze PoliMi.</p>
+    </li>
+  </ol>
+
+  <h3>Как не нарваться на мошенников</h3>
+  <ul class="checks">
+    <li>Не переводи деньги, пока не увидел комнату — вживую или по видеозвонку — и не прочитал договор.</li>
+    <li>Договор должен быть зарегистрирован: без этого не будет ни резиденции, ни статуса fuori sede для стипендии (нужно минимум 10 месяцев).</li>
+    <li>Для студентов есть отдельный тип договора — <i class="it">contratto per studenti universitari</i>, на срок от 6 до 36 месяцев.</li>
+    <li>Спроси, что входит в цену: коммунальные счета, <i class="it">spese condominiali</i>, интернет, отопление зимой.</li>
+    <li>Уточни, разрешит ли хозяин зарегистрировать у него резиденцию.</li>
+    <li>Залог по закону — не больше трёх месячных плат.</li>
+  </ul>
+</section>
+
+<!-- ============ РАБОТА ============ -->
+<section class="panel" id="panel-work" role="tabpanel" aria-labelledby="tab-work" hidden>
+  <p class="kicker">Работа · Милан</p>
+  <h2>Как зарабатывать во время учёбы</h2>
+  <p class="section-lede">Как гражданин Италии ты можешь работать без ограничений. На первом курсе реалистично 8–12 часов в неделю: для стипендии нужно вовремя закрывать CFU.</p>
+
+  <div class="wcalc">
+    <div class="field"><label for="w-hours">Часов в неделю</label><input id="w-hours" class="num" type="number" inputmode="decimal" min="0" max="40" step="1"></div>
+    <div class="field"><label for="w-rate">Евро в час</label><input id="w-rate" class="num" type="number" inputmode="decimal" min="0" max="100" step="0.5"></div>
+    <div class="wc-out"><span class="kicker">≈ в месяц</span><span class="big" id="wMonth">€0</span></div>
+    <p id="wGap"></p>
+    <button class="btn" id="wApply" type="button">Учесть в бюджете</button>
+  </div>
+
+  <ul class="list" style="margin-top:18px">
+    <li class="item">
+      <div class="item-head"><span class="item-title">Collaborazioni studentesche в PoliMi</span><span class="price">€12–14 в час</span></div>
+      <p>Работа в офисах университета (€12) или тьюторство (€14), до 200 часов за учебный год. Конкурс объявляют каждый семестр. Лучший вариант на первый курс: гибко и в кампусе.</p>
+      <p class="src">Источник: <a href="https://www.polimi.it/en/campus-e-servizi/lavoro-e-collaborazioni/students-remunerated-collaboration-activities" target="_blank" rel="noopener">PoliMi — collaborazioni retribuite</a></p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Hostess и steward на выставках</span><span class="price">€65–80 в день</span></div>
+      <p>Fiera Milano Rho, Salone del Mobile в апреле, недели моды, корпоративные события. Итальянский, русский и английский — сильный плюс. Оплату по таким проектам часто переводят в течение 60 дней.</p>
+      <p class="src">Источник: <a href="https://hsmilano.it/annunci/" target="_blank" rel="noopener">H&amp;S Milano — объявления</a></p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Бар, кафе, магазин</span><span class="price">≈ €7–10 в час · оценка</span></div>
+      <p>Вечера и выходные. Проси официальный договор — он защищает и даёт стаж.</p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Уроки и переводы</span><span class="price">≈ €15–25 в час · оценка</span></div>
+      <p>Итальянский и русский у тебя родные: уроки языка, сопровождение и переводы для русскоязычных в Милане, помощь с документами.</p>
+    </li>
+    <li class="item">
+      <div class="item-head"><span class="item-title">Фриланс-дизайн</span><span class="price">за проект</span></div>
+      <p>Айдентика, соцсети, презентации для небольших бизнесов и студий; Behance как витрина. Первые заказы — через знакомых по курсу и контакты с Design Week.</p>
+    </li>
+  </ul>
+
+  <h3>Как оформлять фриланс</h3>
+  <dl class="dl">
+    <dt>Разовые заказы</dt>
+    <dd><b>Prestazione occasionale</b> — без partita IVA. До €5 000 в год — без взносов INPS. Если заказчик — компания или ИП, он удержит 20% налога (ritenuta d’acconto); доход указываешь в декларации.</dd>
+    <dt>Регулярные заказы</dt>
+    <dd><b>Partita IVA в regime forfettario</b> — налог 5% первые пять лет при соблюдении условий, потом 15%; считается с 78% дохода. Взносы INPS gestione separata — 26,07%. Лимит — €85 000 в год.</dd>
+    <dt>Софт</dt>
+    <dd>Adobe Creative Cloud от PoliMi — только для учёбы. Для коммерческих заказов нужна своя лицензия.</dd>
+  </dl>
+  <p class="note" style="margin-top:12px">Это ориентир, а не налоговая консультация: перед первым регулярным заказом сходи к commercialista или в CAF.</p>
+  <p class="src" style="margin-top:6px">Источники: <a href="https://www.studiopolli.it/guide/prestazioni_occasionali.html" target="_blank" rel="noopener">Studio Polli — prestazione occasionale 2026</a> · <a href="https://cosaconta.bancamediolanum.it/blog/conoscere/regime-forfettario-guida-completa" target="_blank" rel="noopener">Banca Mediolanum — forfettario 2026</a> · <a href="https://www.software.polimi.it/adobe-creative-cloud/?lang=en" target="_blank" rel="noopener">PoliMi — Adobe CC</a></p>
+</section>
+
+<!-- ============ ВУЗЫ ============ -->
+<section class="panel" id="panel-schools" role="tabpanel" aria-labelledby="tab-schools" hidden>
+  <p class="kicker">Вузы · государственные</p>
+  <h2>PoliMi и запасные пути</h2>
+  <p class="section-lede">У каждого запасного варианта свой формат и срок — так на любом этапе остаётся куда идти. Даты — по циклу 2026/27.</p>
+
+  <div class="plan4">
+    <div><b>Март–апрель</b><span>TOLD в Милане, отбор IUAV и unibz онлайн</span></div>
+    <div><b>Май–июнь</b><span>решение по unibz, рейтинги PoliMi</span></div>
+    <div><b>Июль</b><span>последняя сессия TIL-D и рейтинг PoliTo</span></div>
+    <div><b>Сентябрь</b><span>вступительные в Brera — если остальное не сложилось</span></div>
+  </div>
+
+  <div class="cards">
+    <article class="card main">
+      <span class="badge">Основной</span>
+      <h3>Politecnico di Milano</h3>
+      <p class="sub">Design della Comunicazione · Милан, кампус Bovisa · 3 года, на итальянском</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>TOLD, только очно. 175 мест для граждан ЕС. Две попытки, €35 за каждую.</dd>
+        <dt>Когда</dt><dd>Тесты 1 марта – 31 мая, рейтинги 8 июня – 6 июля, на зачисление — 2 дня.</dd>
+        <dt>Плата</dt><dd>€880–3 943 в год по ISEE; стипендиату DSU — только налоги.</dd>
+        <dt>Жильё</dt><dd>Комната ≈ €704; общежитие PoliMi — €4 530–6 545 в год.</dd>
+      </dl>
+      <p class="why">Главная школа дизайна Италии: айдентика, издания, digital, Design Week в городе, Adobe CC для студентов.</p>
+      <p class="src"><a href="https://www.polimi.it/en/education/laurea-programmes/programme-detail/communication-design" target="_blank" rel="noopener">Программа</a> · <a href="https://www.polimi.it/en/futuri-studenti/test-e-ammissione/laurea/design/when-to-register-for-the-test/dates-of-the-told" target="_blank" rel="noopener">даты TOLD</a> · <a href="https://testbuddy.it/altri-test/told/punteggio-e-graduatoria" target="_blank" rel="noopener">места и пороги</a></p>
+    </article>
+
+    <article class="card">
+      <span class="badge">Онлайн-отбор</span>
+      <h3>Università Iuav di Venezia</h3>
+      <p class="sub">Design del prodotto, della comunicazione visiva e degli interni · трек Product &amp; Visual</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>Тест из 60 вопросов за 90 минут и собеседование — оба онлайн. 120 мест.</dd>
+        <dt>Когда</dt><dd>Заявка до 26 марта, тест 14 апреля, собеседования 27–29 апреля, рейтинг 14 мая.</dd>
+        <dt>Плата</dt><dd>До €3 014 в год, первый взнос €890; при ISEE до €26 000 — без взноса.</dd>
+        <dt>Жильё</dt><dd>Комната ≈ €456.</dd>
+      </dl>
+      <p class="why">Весь отбор без поездки, а результат — раньше рейтингов PoliMi.</p>
+      <p class="src"><a href="https://www.iuav.it/en/node/722" target="_blank" rel="noopener">Процедура</a> · <a href="https://www.iuav.it/it/tasse-e-contributi/quanto-si-paga" target="_blank" rel="noopener">плата</a></p>
+    </article>
+
+    <article class="card">
+      <span class="badge">Портфолио</span>
+      <h3>unibz — Libera Università di Bolzano</h3>
+      <p class="sub">Design e Arti, curriculum Design · Больцано · итальянский, немецкий, английский</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>Видео до 2 минут, творческое задание дома, онлайн-собеседование; проходной — 42/100. 34 места в первой сессии и 24 во второй.</dd>
+        <dt>Когда</dt><dd>Предзапись 2 марта – 28 апреля, собеседование 15 мая, рейтинг до 27 мая.</dd>
+        <dt>Плата</dt><dd>€1 200 в год; подача бесплатная.</dd>
+        <dt>Языки</dt><dd>B2 по двум языкам из трёх — с сертификатами.</dd>
+      </dl>
+      <p class="why">Отбирают по работам, а не по тесту; небольшие группы. Минус — нужен сертификат B2 по второму языку.</p>
+      <p class="src"><a href="https://www.unibz.it/it/faculties/design-art/bachelor-design" target="_blank" rel="noopener">Программа</a> · <a href="https://www.unibz.it/assets/CoursesPDF/laurea-in-design-e-arti-curriculum-design_admission-information_it_IT.pdf?v=88" target="_blank" rel="noopener">условия 2026/27</a></p>
+    </article>
+
+    <article class="card">
+      <span class="badge">Турин</span>
+      <h3>Politecnico di Torino</h3>
+      <p class="sub">Design e Comunicazione · Турин · на итальянском</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>TIL-D очно в Турине: 42 вопроса за 90 минут, до 3 попыток, €50. 235 мест для ЕС.</dd>
+        <dt>Когда</dt><dd>Сессии 19 февраля – 20 июля, рейтинг 23 июля.</dd>
+        <dt>Плата</dt><dd>До ≈ €3 600 в год, первый взнос €161.</dd>
+        <dt>Документы</dt><dd>Декларация о ценности или CIMEA обязательны; уточни, нужен ли сертификат B2 по итальянскому при иностранном дипломе.</dd>
+      </dl>
+      <p class="why">Приём заканчивается позже всех, а комната в среднем на €225 дешевле миланской.</p>
+      <p class="src"><a href="https://www.polito.it/sites/default/files/2025-12/Bando%20Design%20comunitari-Extra%20UE%2026_27.pdf" target="_blank" rel="noopener">Условия 2026/27</a> · <a href="https://habacus.com/it/school/politecnico-di-torino-polito/" target="_blank" rel="noopener">плата</a></p>
+    </article>
+
+    <article class="card">
+      <span class="badge">Графика</span>
+      <h3>ISIA Urbino</h3>
+      <p class="sub">Progettazione grafica e comunicazione visiva · Урбино · диплом I уровня, приравнен к laurea</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>Тест на способности, туры весной. 25 мест для ЕС.</dd>
+        <dt>Плата</dt><dd>До €1 340 в год (€1 200 + налог ERDIS €140); при ISEE до €22 000 — без взноса.</dd>
+      </dl>
+      <p class="why">Камерная государственная школа, целиком про графику и типографику; маленький студенческий город.</p>
+      <p class="src"><a href="https://guide.isiaurbino.net/ammissioni/" target="_blank" rel="noopener">Приём</a> · <a href="https://guide.isiaurbino.net/tasse-e-contributi/" target="_blank" rel="noopener">плата</a></p>
+    </article>
+
+    <article class="card">
+      <span class="badge">Милан, сентябрь</span>
+      <h3>Accademia di Brera</h3>
+      <p class="sub">Progettazione artistica per l’impresa · Милан · диплом I уровня</p>
+      <dl class="dl">
+        <dt>Отбор</dt><dd>Очно в начале сентября: тест по культуре из 100 вопросов, графическое задание, собеседование с портфолио.</dd>
+        <dt>Плата</dt><dd>≈ €1 190–3 200 в год по ISEE, плюс налоги.</dd>
+      </dl>
+      <p class="why">Запасной вариант в том же городе — уже после рейтингов PoliMi.</p>
+      <p class="src"><a href="https://borsaefinanza.it/accademia-di-brera-quanto-costa-retta-come-entrare/" target="_blank" rel="noopener">Borsa&amp;Finanza — плата и отбор</a></p>
+    </article>
+  </div>
+  <p class="note" style="margin-top:14px">Ещё вариант — ISIA Roma, Design (продукт и коммуникация): 38 мест, очный тест 15–16 июля, заявка до 30 июня 2026. Минус — комната в Риме ≈ €615. <a href="https://www.isiaroma.it/studenti/ammissioni-triennio-roma/" target="_blank" rel="noopener">Условия</a></p>
+</section>
+
+<!-- ============ БУМАГИ ============ -->
+<section class="panel" id="panel-docs" role="tabpanel" aria-labelledby="tab-docs" hidden>
+  <p class="kicker">Документы</p>
+  <h2>Бумаги в двух странах</h2>
+  <p class="section-lede">Самый длинный путь — признание диплома: его запускаешь в день получения. Остальное лучше закрыть до весны.</p>
+
+  <div class="doc-group">
+    <h3>Диплом колледжа → признание в Италии</h3>
+    <dl class="dl">
+      <dt>Подходит ли СПО</dt>
+      <dd>Итальянские вузы принимают аттестат после минимум 12 лет обучения. У тебя 9 классов и около 4 лет колледжа — условие выполнено. Ca’ Foscari прямо указывает диплом СПО среди подходящих российских документов. Окончательно решает вуз — возьми у PoliMi письменное подтверждение.</dd>
+      <dt>Что просит PoliMi</dt>
+      <dd>Диплом — оригинал, с официальным переводом, если он не на итальянском, английском, французском или испанском: <b>до 10 сентября</b>. Декларация о ценности или CIMEA Statement of Comparability: <b>до 31 октября</b>. Подтверждение подлинности — CIMEA Statement of Verification или электронный апостиль, бумажный больше не принимают: <b>до 31 октября</b>. Даты — 2026.</dd>
+      <dt>CIMEA</dt>
+      <dd>€300 за сравнение и проверку, 60 рабочих дней. Срочное сравнение — ещё €100 и 30 дней, проверку не ускорить. Подают только на уже полученный диплом.</dd>
+      <dt>Апостиль в России</dt>
+      <dd>Через Госуслуги, Департамент образования Москвы: 5–25 рабочих дней, пошлина 2 500 ₽ за диплом с приложением.</dd>
+      <dt>Почему не консульство</dt>
+      <dd>Декларацию о ценности в Москве выдают под заявку на Universitaly — это путь для иностранцев с визой. Тебе как гражданину Италии проще CIMEA.</dd>
+    </dl>
+    <p class="src" style="margin-top:10px">Источники: <a href="https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/necessary-documents-for-enrolment" target="_blank" rel="noopener">PoliMi — документы</a> · <a href="https://www.unive.it/pag/41327/" target="_blank" rel="noopener">Ca’ Foscari — по странам</a> · <a href="https://cimea-diplome.it/page-comparability-verification-service" target="_blank" rel="noopener">CIMEA</a> · <a href="https://document24.ru/apostil-diplom/" target="_blank" rel="noopener">апостиль 2026</a> · <a href="https://consmosca.esteri.it/ru/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/altri-servizi/dichiarazioni-di-valore/" target="_blank" rel="noopener">консульство в Москве</a></p>
+  </div>
+
+  <div class="doc-group">
+    <h3>Итальянские документы</h3>
+    <dl class="dl">
+      <dt>Паспорт или CIE</dt><dd>Должны действовать весь 2027 год. Продлевать — в Генконсульстве в Москве, запись заранее.</dd>
+      <dt>Codice fiscale</dt><dd>Понадобится везде: TOLD, банк, аренда, ISEE.</dd>
+      <dt>SPID</dt><dd>Итальянцам за рубежом доступно: паспорт или CIE, codice fiscale, иностранный номер телефона, идентификация по видео.</dd>
+      <dt>AIRE и резиденция</dt><dd>С AIRE в Италии положена только экстренная помощь. После регистрации резиденции в Милане — полис SSN и семейный врач. До смены резиденции уточни в DSU, как это скажется на статусе fuori sede.</dd>
+    </dl>
+    <p class="src" style="margin-top:10px">Источники: <a href="https://www.spid.gov.it/en/what-is-spid/how-to-activate-spid/spid-for-italian-citizens-abroad/" target="_blank" rel="noopener">SPID за рубежом</a> · <a href="https://fiscomania.com/assistenza-sanitaria-aire-guida/" target="_blank" rel="noopener">медицина для AIRE</a> · <a href="https://consmosca.esteri.it/ru/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/passaporti-e-carte-didentita/" target="_blank" rel="noopener">паспорта</a></p>
+  </div>
+
+  <div class="doc-group">
+    <h3>ISEE — от него зависят плата и стипендия</h3>
+    <dl class="dl">
+      <dt>ISEE parificato</dt><dd>Для семей с доходами за рубежом. Считают в CAF, с которым работает вуз. Нужны документы о составе семьи, доходах, недвижимости и счетах — с переводом и легализацией или апостилем.</dd>
+      <dt>Родители в разных странах</dt><dd>Документы понадобятся и из России, и из Германии. Как учитывать отца, если родители живут раздельно, — уточни в CAF заранее.</dd>
+      <dt>Ограничение</dt><dd>В PoliMi ISEE parificato даёт скидку по группе дохода, но не полное освобождение. Без ISEE — максимальная плата.</dd>
+    </dl>
+    <p class="src" style="margin-top:10px">Источники: <a href="https://www.money.it/isee-parificato-studenti-stranieri-calcolo-e-documenti" target="_blank" rel="noopener">Money.it — ISEE parificato</a> · <a href="https://www.normativa.polimi.it/fileadmin/user_upload/regolamenti/studenti/D.r._regolamento_contribuzione_studentesca_2026-2027.pdf" target="_blank" rel="noopener">регламент PoliMi 2026/27</a></p>
+  </div>
+
+  <div class="doc-group">
+    <h3>Деньги, связь, дорога</h3>
+    <dl class="dl">
+      <dt>Карты</dt><dd>Российские карты в Италии не работают. Для первого взноса и брони нужна европейская карта, после переезда — итальянский счёт: у крупных банков есть бесплатные тарифы для молодёжи.</dd>
+      <dt>Переводы</dt><dd>Переводы из российских банков в ЕС ограничены санкциями; SEPA-перевод от отца из Германии — самый простой канал.</dd>
+      <dt>Транспорт</dt><dd>ATM Under 27 — €22 в месяц или €200 в год, без условий по доходу.</dd>
+      <dt>Дорога</dt><dd>Из Москвы в Милан летают с пересадкой — например, через Белград или Стамбул.</dd>
+    </dl>
+    <p class="src" style="margin-top:10px">Источники: <a href="https://www.atm.it/it/ViaggiaConNoi/Documents/ATM%20PER%20I%20GIOVANI.pdf" target="_blank" rel="noopener">ATM — тарифы для молодёжи 2026</a> · <a href="https://www.airserbia.com/en/flights-from-moscow-to-milan" target="_blank" rel="noopener">Air Serbia — Москва–Милан</a></p>
+  </div>
+
+  <div class="doc-group">
+    <h3>Если у тебя есть гражданство РФ</h3>
+    <div class="callout"><b>Воинский учёт.</b> Отсрочка по колледжу заканчивается вместе с учёбой, а учёба за границей отсрочку не даёт. С 2026 года призывные мероприятия идут круглый год (отправка — весной и осенью), а электронная повестка запрещает выезд с момента появления в реестре. Проконсультируйся с юристом заранее, чтобы спланировать сроки получения диплома и переезда.</div>
+    <p class="src" style="margin-top:10px">Источники: <a href="https://news.mail.ru/society/70880375/" target="_blank" rel="noopener">Mail — правила призыва 2026</a> · <a href="https://prizyvnik18.ru/blog/ogranicheniya-posle-povestki" target="_blank" rel="noopener">ограничения после повестки</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>План собран 17 сентября 2026 года по официальным правилам цикла 2026/27.</span>
+  <span>Не юридическая и не финансовая консультация — перед каждым шагом сверяйся с bando конкретного вуза.</span>
+</footer>
+
+</div>
+</div>
+
+<script>
+(function () {
+"use strict";
+
+/* ---------- данные ---------- */
+const TODAY = new Date();
+const DAY = 86400000;
+const TAGS = { polimi: "PoliMi", docs: "Документы", money: "Деньги", home: "Жильё", work: "Работа", backup: "Запасной план" };
+const MONTHS_NOM = ["январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"];
+const MONTHS_GEN = ["янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","ноя","дек"];
+
+const STATIONS = [
+  { id: "s1", start: "2026-09-01", end: "2026-09-30", code: "set 2026", name: "Старт", tasks: [
+    { id: "s1-docs-it", t: "Проверить итальянские документы", d: "Срок паспорта или CIE, codice fiscale, данные в AIRE. Если что-то истекает до осени 2027 — сразу запишись в Генконсульство в Москве.", tag: "docs", links: [["Консульство: паспорта", "https://consmosca.esteri.it/ru/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/passaporti-e-carte-didentita/"]] },
+    { id: "s1-diploma", t: "Получить от PoliMi письменное «да» по диплому колледжа", d: "Спроси, подходит ли диплом СПО после 9 класса для laurea (9 классов + ~4 года колледжа ≥ 12 лет обучения) и нужны ли табели за последние 3 года. Такой диплом, например, прямо указан в требованиях Ca’ Foscari.", tag: "polimi", links: [["PoliMi: иностранный аттестат", "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-a-foreign-degree"], ["Ca’ Foscari: по странам", "https://www.unive.it/pag/41327/"]] },
+    { id: "s1-shortlist", t: "Утвердить список вузов", d: "Главный — PoliMi. Запасные с разными форматами и сроками: IUAV и unibz (отбор онлайн), PoliTo (тест в Турине до июля), ISIA Urbino, Brera (экзамен в сентябре). Сравнение — во вкладке «Вузы».", tag: "backup" },
+    { id: "s1-pok", t: "Начать бесплатные курсы PoliMi к тесту", d: "На платформе POK: «Introduzione alla Storia del Design» и «Geometria e Rappresentazione per il Design» — ровно под разделы TOLD.", tag: "polimi", links: [["POK: курсы к тесту Design", "https://www.pok.polimi.it/course/index.php?categoryid=8"]] },
+    { id: "s1-english", t: "Решить вопрос с английским", d: "Для поступления в PoliMi английский не нужен, но без подтверждения дадут OFA: хватит 24 верных ответов в английской части теста или IELTS 4+ / TOEFL iBT 45+. Для unibz нужен сертификат B2.", tag: "polimi", links: [["PoliMi: языковые требования", "https://www.polimi.it/en/studenti/requisiti-di-lingua/students-of-an-italian-language-laurea-study-programme"]] }
+  ]},
+  { id: "s2", start: "2026-10-01", end: "2026-11-30", code: "ott – nov 2026", name: "Подготовка", tasks: [
+    { id: "s2-told-plan", t: "Составить план подготовки к TOLD", d: "Разделы 2026: общая культура — 24 вопроса за 20 минут, геометрия и черчение — 12 за 20, история дизайна и искусства — 12 за 10, логика — 6 за 10, понимание текста — 6 за 10, английский — 30 за 15 (в балл не идёт). +1 за верный ответ, −0,25 за ошибку, порог — 30 из 100.", tag: "polimi", links: [["Структура TOLD", "https://www.ammissione.it/area-tecnica-scientifica/test-design-politecnico-milano/17555/"]] },
+    { id: "s2-materials", t: "Собрать материалы и график пробных тестов", d: "Демо-тест PoliMi, пособия Alpha Test по Design (теория и симуляции), квизы по общей культуре, иллюстрированная история дизайна XX века. Пробный тест — раз в две недели.", tag: "polimi", links: [["Книги к TOLD", "https://www.giovannimalausa.com/post/libri-told-polimi/"]] },
+    { id: "s2-portfolio", t: "Пересобрать портфолио", d: "Для unibz, ISIA, Brera и будущих заказов: 8–12 сильных проектов — айдентика, типографика, плакаты, digital — с процессом, а не только финалом. Основа — твой Behance.", tag: "backup", links: [["Твой Behance", "https://www.behance.net/syamtomovdaniil"]] },
+    { id: "s2-isee", t: "Попросить семью собрать документы для ISEE parificato", d: "Мама (Россия) и отец (Германия): состав семьи, доходы, недвижимость, остатки на счетах. Российские бумаги — с апостилем и переводом. Уточни в CAF, учитывается ли отец, если родители живут раздельно: от этого зависят и плата, и стипендия.", tag: "money", links: [["Что такое ISEE parificato", "https://www.money.it/isee-parificato-studenti-stranieri-calcolo-e-documenti"]] },
+    { id: "s2-college", t: "Узнать в колледже дату выдачи диплома", d: "И можно ли получить диплом и сделать апостиль по доверенности — пригодится, если в июле ты уже будешь в Италии.", tag: "docs" },
+    { id: "s2-spid", t: "Оформить SPID", d: "Итальянцам за рубежом доступно: паспорт или CIE, codice fiscale, иностранный номер телефона, идентификация по видео. Нужен для INPS, ISEE, ASL и многих порталов.", tag: "docs", links: [["SPID для итальянцев за рубежом", "https://www.spid.gov.it/en/what-is-spid/how-to-activate-spid/spid-for-italian-citizens-abroad/"]] },
+    { id: "s2-english-cert", t: "Записаться на экзамен по английскому", d: "Только если подаёшься в unibz: там на входе нужны сертификаты B2 по двум языкам.", tag: "backup", cond: true }
+  ]},
+  { id: "s3", start: "2026-12-01", end: "2027-01-31", code: "dic 2026 – gen 2027", name: "Календари", tasks: [
+    { id: "s3-bandi", t: "Поймать публикацию правил приёма 2027/28", d: "PoliMi (TOLD), IUAV, unibz, PoliTo, ISIA Urbino, Brera. Даты в этом плане — по циклу 2026/27, новые могут сдвинуться.", tag: "polimi" },
+    { id: "s3-online", t: "Завести аккаунт в Servizi Online PoliMi", d: "Через него — запись на TOLD и оплата: в 2026 году €35 за попытку.", tag: "polimi" },
+    { id: "s3-trip", t: "Спланировать поездку на TOLD", d: "Тест только очно, в компьютерных классах PoliMi. На итальянский TOLD — две попытки, по одной в каждом окне (2026: 1 марта – 11 апреля и 12 апреля – 31 мая). Возьми последнюю дату первого окна и первую второго — хватит одной поездки.", tag: "polimi", links: [["Даты TOLD 2026", "https://www.polimi.it/en/futuri-studenti/test-e-ammissione/laurea/design/when-to-register-for-the-test/dates-of-the-told"]] },
+    { id: "s3-polito", t: "Решить, сдавать ли TIL-D в Турине", d: "Design e Comunicazione в PoliTo: тест очно, до 3 попыток, €50. В 2026 сессии шли с 19 февраля по 20 июля — одну можно совместить с поездкой на TOLD: Турин в часе от Милана.", tag: "backup" },
+    { id: "s3-savings", t: "Отложить €700–1 000 на весеннюю поездку", d: "Перелёт с пересадкой (обычно Белград или Стамбул), 7–8 ночей в хостеле и две попытки TOLD. Это оценка — проверь цены ближе к датам.", tag: "money" }
+  ]},
+  { id: "s4", start: "2027-02-01", end: "2027-03-31", code: "feb – mar 2027", name: "Заявки", tasks: [
+    { id: "s4-told", t: "Записаться на две даты TOLD и купить билеты", d: "Неявка засчитывается как использованная попытка.", tag: "polimi", due: "2027-03-01" },
+    { id: "s4-iuav", t: "IUAV: подать заявку", d: "Design del prodotto, della comunicazione visiva e degli interni, трек Product & Visual — 120 мест. В 2026 заявка — до 26 марта, тест и собеседование — онлайн в апреле.", tag: "backup", due: "2027-03-26", links: [["IUAV: процедура", "https://www.iuav.it/en/node/722"]] },
+    { id: "s4-unibz", t: "unibz: предзапись, видео и творческое задание", d: "Design e Arti, curriculum Design: видео до 2 минут, задание дома, онлайн-собеседование, проходной — 42 из 100. В 2026 предзапись шла со 2 марта по 28 апреля. Плата — €1 200 в год.", tag: "backup", due: "2027-04-28", links: [["unibz: условия 2026/27", "https://www.unibz.it/assets/CoursesPDF/laurea-in-design-e-arti-curriculum-design_admission-information_it_IT.pdf?v=88"]] },
+    { id: "s4-isia", t: "ISIA Urbino: следить за турами приёма", d: "Progettazione grafica e comunicazione visiva, 25 мест. Вступительный тест на способности, туры проходят весной.", tag: "backup", links: [["ISIA Urbino: приём", "https://guide.isiaurbino.net/ammissioni/"]] },
+    { id: "s4-housing", t: "Изучить жильё заранее", d: "Общежития PoliMi (Vilfredo Pareto — рядом с кампусом Bovisa), условия DSU, районы у кампуса. Всё — во вкладке «Жильё».", tag: "home" }
+  ]},
+  { id: "s5", start: "2027-04-01", end: "2027-04-30", code: "apr 2027", name: "Италия", tasks: [
+    { id: "s5-told", t: "Сдать TOLD дважды", d: "В рейтинг идёт лучший результат. Высокий балл нужен не только для места: по нему первокурсникам дают борсу PoliMi для fuori sede — €3 080 в год.", tag: "polimi" },
+    { id: "s5-iuav", t: "IUAV: онлайн-тест и собеседование", d: "В 2026: тест 14 апреля — 60 вопросов за 90 минут, собеседования 27–29 апреля.", tag: "backup" },
+    { id: "s5-polito", t: "Сдать TIL-D в Турине", d: "По желанию. 42 вопроса за 90 минут: культура проекта, логика и математика, понимание текста, общая культура.", tag: "backup", cond: true },
+    { id: "s5-dw", t: "Сходить на Milano Design Week, 13–18 апреля 2027", d: "Salone del Mobile в Fiera Milano Rho и события по городу: посмотреть индустрию, собрать контакты студий и агентств, которые набирают людей на стенды.", tag: "work", links: [["Salone del Mobile 2027", "https://www.salonemilano.it/en/articles/salone-del-mobile-2027-dates"]] },
+    { id: "s5-areas", t: "Посмотреть районы и общежитие вживую", d: "Bovisa, Dergano, Affori, Villapizzone; дорога до кампуса; residenza Vilfredo Pareto — метро M3 Dergano, станция Villapizzone, трамвай 12.", tag: "home" }
+  ]},
+  { id: "s6", start: "2027-05-01", end: "2027-06-30", code: "mag – giu 2027", name: "Рейтинги", tasks: [
+    { id: "s6-exams", t: "Сдать выпускные в колледже", d: "Диплом нужен к сентябрю, а зачислиться в PoliMi можно и до него.", tag: "docs" },
+    { id: "s6-unibz", t: "unibz: решить, держать ли место", d: "В 2026 рейтинг выходил до 27 мая, а первый взнос €600 — до 5 июня, раньше рейтингов PoliMi. Реши заранее.", tag: "backup", due: "2027-06-04", cond: true },
+    { id: "s6-card", t: "Подготовить европейскую карту для оплат", d: "Российские карты в Италии не работают. Первый взнос PoliMi и бронь проще оплатить картой отца из Германии или своей европейской.", tag: "money" },
+    { id: "s6-ranking", t: "Следить за рейтингами TOLD", d: "В 2026 — 8, 15, 22, 29 июня и 6 июля. Статус ASSIGNED — зачисляйся в течение двух дней, иначе место уйдёт следующему.", tag: "polimi", due: "2027-06-07", links: [["PoliMi: рейтинги и зачисление", "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/design/when-and-how-to-enrol"]] },
+    { id: "s6-enrol", t: "Зачислиться и оплатить первый взнос €880", d: "Можно условно, до получения диплома: оценки и документы загрузишь позже.", tag: "polimi" },
+    { id: "s6-dsu-read", t: "Прочитать bando DSU PoliMi 2027/28", d: "Пороги ISEE и ISPE, суммы, сроки, список документов для ISEE parificato и заявка на место в общежитии.", tag: "money" }
+  ]},
+  { id: "s7", start: "2027-07-01", end: "2027-07-31", code: "lug 2027", name: "Диплом", tasks: [
+    { id: "s7-diploma", t: "Получить диплом и приложение", tag: "docs" },
+    { id: "s7-cimea", t: "В тот же день подать документы в CIMEA", d: "Сравнение и проверка подлинности — €300, 60 рабочих дней. Срочное сравнение — ещё €100 и 30 дней, проверку не ускорить. В 2026 CIMEA не принимала заявки 19–26 июля и 23–30 августа.", tag: "docs", links: [["CIMEA: услуга", "https://cimea-diplome.it/page-comparability-verification-service"]] },
+    { id: "s7-apostille", t: "Поставить апостиль через Госуслуги", d: "Департамент образования Москвы: 5–25 рабочих дней, пошлина 2 500 ₽ за диплом с приложением. Нужен для других вузов и переводов.", tag: "docs", links: [["Госуслуги: апостиль", "https://www.gosuslugi.ru/newsearch/apostil-na-dokumenty-ob-obrazovanii"]] },
+    { id: "s7-translate", t: "Сделать официальный перевод диплома", d: "PoliMi принимает оригинал на итальянском, английском, французском или испанском; с русского нужен официальный перевод.", tag: "docs" },
+    { id: "s7-residence", t: "Забронировать общежитие PoliMi", d: "В 2026 бронь для новых жильцов открылась 13 июля. Период — 25 августа – 30 июля, депозит €500. Pareto: двухместная €4 830, одноместная €5 335 в год.", tag: "home", due: "2027-07-12", links: [["Residenze PoliMi", "https://www.residenze.polimi.it/en/full-rate-accomodation/"]] },
+    { id: "s7-dsu", t: "Подать заявку на стипендию DSU", d: "В 2026 первокурсникам — до 5 августа, 12:00. Место в общежитии для стипендиатов — в том же конкурсе.", tag: "money", due: "2027-08-05" },
+    { id: "s7-merit", t: "Подать на борсу PoliMi для fuori sede", d: "€3 080 брутто в год; первокурсникам считают балл TOLD. Сроки — в bando, вопросы — fondomerito@polimi.it.", tag: "money", links: [["Борса для fuori sede", "https://www.polimi.it/en/studenti/tasse-borse-e-agevolazioni/borse-di-studio-non-dsu-e-premi-di-laurea/scholarships-for-deserving-students-away-from-home"]] },
+    { id: "s7-army", t: "Разобраться с воинским учётом, если есть гражданство РФ", d: "Отсрочка по колледжу заканчивается вместе с учёбой, а учёба за границей отсрочку не даёт. С 2026 года призывные мероприятия идут круглый год, а электронная повестка запрещает выезд с момента появления в реестре. Проконсультируйся с юристом заранее.", tag: "docs", cond: true }
+  ]},
+  { id: "s8", start: "2027-08-01", end: "2027-08-31", code: "ago 2027", name: "Переезд", tasks: [
+    { id: "s8-move", t: "Переехать в Милан", d: "Заезд в общежитие PoliMi — с 25 августа, если график повторит 2026 год. Стартовые расходы — во вкладке «Деньги».", tag: "home" },
+    { id: "s8-residenza", t: "Зарегистрировать резиденцию в Милане", d: "С AIRE в Италии положена только экстренная помощь; после регистрации — полис SSN и семейный врач. Перед этим уточни в DSU, не изменит ли смена резиденции статус fuori sede.", tag: "docs" },
+    { id: "s8-bank", t: "Открыть итальянский счёт", d: "У крупных банков есть бесплатные тарифы для молодёжи. Поддержку в евро проще получать SEPA-переводом из Германии: переводы из российских банков в ЕС ограничены санкциями.", tag: "money" },
+    { id: "s8-atm", t: "Купить SIM и проездной ATM Under 27", d: "Проездной — €22 в месяц или €200 в год, без условий по доходу.", tag: "money" },
+    { id: "s8-isee", t: "Сдать документы на ISEE parificato", d: "В CAF, с которым работает PoliMi. Без ISEE плата будет максимальной — €3 943.", tag: "money" },
+    { id: "s8-contract", t: "Оформить зарегистрированный договор аренды", d: "Если живёшь не в общежитии: для статуса fuori sede в DSU нужен договор минимум на 10 месяцев.", tag: "home", cond: true }
+  ]},
+  { id: "s9", start: "2027-09-01", end: "2027-09-30", code: "set 2027", name: "Bovisa", tasks: [
+    { id: "s9-upload", t: "Загрузить диплом с переводом в PoliMi", d: "Для иностранных дипломов в 2026 — до 10 сентября.", tag: "polimi", due: "2027-09-10" },
+    { id: "s9-backup", t: "Включить план Б, если PoliMi не сложился", d: "Вторая фаза на освободившиеся места (2026: 1–9 сентября) и вступительные экзамены в Brera в начале сентября.", tag: "backup", cond: true },
+    { id: "s9-start", t: "Начать учёбу", d: "Adobe Creative Cloud от PoliMi активируется на университетскую почту — только для учебных задач.", tag: "polimi" },
+    { id: "s9-job", t: "Найти подработку на 8–12 часов в неделю", d: "Конкурс collaborazioni в PoliMi (€12–14 в час), выставки, фриланс. Варианты — во вкладке «Работа».", tag: "work" }
+  ]},
+  { id: "s10", start: "2027-10-01", end: "2027-11-30", code: "ott – nov 2027", name: "Хвосты", tasks: [
+    { id: "s10-cimea", t: "Сдать документы CIMEA в PoliMi", d: "Сравнение и проверка подлинности — в 2026 до 31 октября.", tag: "polimi", due: "2027-10-31" },
+    { id: "s10-contract", t: "Загрузить договор аренды для DSU", d: "В Ломбардии (пример Bicocca 2026/27) — до 16 ноября, иначе статус «pendolare» и стипендия меньше.", tag: "money", due: "2027-11-15", cond: true },
+    { id: "s10-cfu", t: "Посчитать CFU на первый год", d: "Стипендию сохраняют, только если набрать кредиты к 10 августа 2028 года (Bicocca 2026/27: 35 CFU для бакалавриата), крайний срок — 30 ноября.", tag: "money" }
+  ]}
+];
+
+const TUITION = [
+  { id: "dsu",  label: "Стипендиат DSU — только налоги, ≈ €146 в год", year: 146 },
+  { id: "f1",   label: "ISEE до €23 120 — €880 в год", year: 880 },
+  { id: "f2",   label: "ISEE €23 121–27 000 — ≈ €1 330 в год", year: 1330 },
+  { id: "f3",   label: "ISEE €27 001–31 000 — ≈ €1 660 в год", year: 1660 },
+  { id: "f4",   label: "ISEE €31 001–40 000 — ≈ €1 975 в год", year: 1975 },
+  { id: "f5",   label: "ISEE €40 001–51 000 — ≈ €2 295 в год", year: 2295 },
+  { id: "f6",   label: "ISEE €51 001–63 000 — ≈ €2 625 в год", year: 2625 },
+  { id: "f7",   label: "ISEE €63 001–75 000 — ≈ €2 950 в год", year: 2950 },
+  { id: "f8",   label: "ISEE €75 001–95 000 — ≈ €3 375 в год", year: 3375 },
+  { id: "full", label: "ISEE от €95 001 — ≈ €3 915 в год", year: 3915 },
+  { id: "none", label: "Без ISEE — €3 943 в год", year: 3943 }
+];
+
+const SCENARIOS = {
+  dsu: {
+    name: "Стипендия DSU",
+    note: "Если пройдёшь по ISEE: стипендия покрывает общежитие и часть расходов, за учёбу — только налоги. Суммы — ориентир по Ломбардии (Bicocca 2026/27), в bando PoliMi цифры могут отличаться.",
+    values: { rent: 0, utilities: 0, food: 150, transport: 17, phone: 8, materials: 30, personal: 60, tuition: "dsu", stipend: 384, work: 0 },
+    hints: { rent: "общежитие удерживают из стипендии", utilities: "включено в общежитии", food: "часть стипендии идёт на столовую", stipend: "€7 419 − €2 816 за общежитие, делённое на 12" }
+  },
+  residence: {
+    name: "Общежитие PoliMi",
+    note: "Место в двухместной комнате Vilfredo Pareto рядом с кампусом Bovisa: €4 830 в год, коммуналка и интернет включены. Плата за учёбу — первая группа ISEE.",
+    values: { rent: 403, utilities: 0, food: 240, transport: 17, phone: 8, materials: 30, personal: 60, tuition: "f1", stipend: 0, work: 0 },
+    hints: { rent: "€4 830 в год, делённые на 12", utilities: "включено в общежитии" }
+  },
+  room: {
+    name: "Комната",
+    note: "Одноместная комната в квартире: €704 в среднем по Милану (август 2026) плюс счета. Без стипендии это самый дорогой вариант.",
+    values: { rent: 704, utilities: 60, food: 240, transport: 17, phone: 8, materials: 30, personal: 60, tuition: "f1", stipend: 0, work: 0 },
+    hints: { rent: "средняя одноместная, август 2026", utilities: "счета и интернет, оценка" }
+  }
+};
+const BASE_HINTS = { rent: "", utilities: "оценка", food: "готовить дома, оценка; блюдо в столовой PoliMi ≈ €5", transport: "ATM Under 27 — €200 в год", phone: "оценка", materials: "бумага, печать, макеты", personal: "оценка", stipend: "если выиграешь DSU", work: "посчитай во вкладке «Работа»", limit: "сколько может давать семья" };
+const EXP_FIELDS = [["rent", "Жильё"], ["utilities", "Коммуналка и интернет"], ["food", "Еда"], ["transport", "Транспорт"], ["phone", "Связь"], ["materials", "Материалы и печать"], ["personal", "Личное и отдых"]];
+const INC_FIELDS = [["stipend", "Стипендия деньгами"], ["work", "Подработка"]];
+
+const COSTS = [
+  { label: "Две попытки TOLD", hint: "€35 за попытку в 2026", min: 70, max: 70 },
+  { label: "Весенняя поездка на TOLD", hint: "перелёт с пересадкой и 7–8 ночей в хостеле, оценка", min: 600, max: 1000 },
+  { label: "Апостиль диплома", hint: "2 500 ₽", min: 25, max: 30 },
+  { label: "Официальные переводы", hint: "оценка", min: 50, max: 150 },
+  { label: "CIMEA", hint: "ещё €100 за срочное сравнение", min: 300, max: 400 },
+  { label: "Первый взнос PoliMi", hint: "при зачислении в июне", min: 880, max: 880 },
+  { label: "Депозит за общежитие", hint: "за комнату в квартире — обычно 1–3 месячные платы", min: 500, max: 500 },
+  { label: "Билет на переезд и багаж", hint: "оценка", min: 250, max: 450 },
+  { label: "Проездной ATM на год", hint: "Under 27", min: 200, max: 200 },
+  { label: "Обустройство и SIM", hint: "постельное, посуда, мелочи, оценка", min: 110, max: 270 }
+];
+
+const CITIES = [["Милан", 704, true], ["Рим", 615, false], ["Турин", 479, false], ["Венеция", 456, false]];
+
+const MILESTONES = [
+  { label: "Окно TOLD", date: "2027-03-01", approx: true },
+  { label: "Design Week", date: "2027-04-13", approx: false },
+  { label: "Первый рейтинг", date: "2027-06-07", approx: true },
+  { label: "Диплом", date: "2027-07-01", approx: true },
+  { label: "Заезд в общежитие", date: "2027-08-25", approx: true }
+];
+
+const TAB_IDS = ["route", "money", "home", "work", "schools", "docs"];
+
+/* ---------- утилиты ---------- */
+const $ = (s) => document.querySelector(s);
+const nf = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 0 });
+function eur(n) { const r = Math.round(n); return (r < 0 ? "−" : "") + "€" + nf.format(Math.abs(r)); }
+function eurRate(n) { return "€" + String(Math.round(n * 10) / 10).replace(".", ","); }
+function plural(n, one, few, many) { const a = Math.abs(n), m10 = a % 10, m100 = a % 100; if (m10 === 1 && m100 !== 11) return one; if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few; return many; }
+function parseDay(iso, endOfDay) { const p = iso.split("-").map(Number); return endOfDay ? new Date(p[0], p[1] - 1, p[2], 23, 59, 59) : new Date(p[0], p[1] - 1, p[2]); }
+function startOfToday() { const d = new Date(TODAY); d.setHours(0, 0, 0, 0); return d; }
+function daysUntil(iso) { return Math.round((parseDay(iso) - startOfToday()) / DAY); }
+const reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+const CHECK = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>';
+const CHEV = '<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>';
+const ALL_TASKS = STATIONS.flatMap((s) => s.tasks);
+const TASK_BY_ID = Object.fromEntries(ALL_TASKS.map((t) => [t.id, t]));
+
+/* ---------- состояние ---------- */
+const LS_STATE = "milan-route-state-v1";
+const LS_TAB = "milan-route-tab";
+function defaults() {
+  return { v: 1, done: {}, hideDone: false, budget: Object.assign({ scenario: "residence", limit: 800 }, SCENARIOS.residence.values), work: { hours: 8, rate: 10 }, updatedAt: "" };
+}
+function normalize(raw) {
+  const out = defaults();
+  if (!raw || typeof raw !== "object") return out;
+  if (raw.done && typeof raw.done === "object") { for (const k in raw.done) { if (raw.done[k] === true && TASK_BY_ID[k]) out.done[k] = true; } }
+  if (typeof raw.hideDone === "boolean") out.hideDone = raw.hideDone;
+  if (raw.budget && typeof raw.budget === "object") {
+    for (const k in out.budget) {
+      if (!(k in raw.budget)) continue;
+      const v = raw.budget[k];
+      if (typeof out.budget[k] === "number" && typeof v === "number" && isFinite(v)) out.budget[k] = Math.max(0, v);
+      else if (typeof out.budget[k] === "string" && typeof v === "string") out.budget[k] = v;
+    }
+    if (!SCENARIOS[out.budget.scenario]) out.budget.scenario = "residence";
+    if (!TUITION.some((o) => o.id === out.budget.tuition)) out.budget.tuition = "f1";
+  }
+  if (raw.work && typeof raw.work === "object") { ["hours", "rate"].forEach((k) => { if (typeof raw.work[k] === "number" && isFinite(raw.work[k])) out.work[k] = Math.max(0, raw.work[k]); }); }
+  if (typeof raw.updatedAt === "string") out.updatedAt = raw.updatedAt;
+  return out;
+}
+function loadLocal() { try { const s = localStorage.getItem(LS_STATE); return s ? normalize(JSON.parse(s)) : null; } catch (e) { return null; } }
+function saveLocal() { try { localStorage.setItem(LS_STATE, JSON.stringify(state)); } catch (e) { /* хранилище недоступно */ } }
+let state = loadLocal() || defaults();
+
+/* ---------- синхронизация ---------- */
+const syncEl = $("#sync");
+const SYNC_TEXT = { init: "подключаюсь…", cloud: "синхронизировано", saving: "сохраняю…", local: "сохранено на этом устройстве", pending: "изменения ещё не в облаке", readonly: "только просмотр" };
+function setSync(s) { syncEl.dataset.s = s; syncEl.lastElementChild.textContent = SYNC_TEXT[s] || ""; }
+
+let cloud = null, readOnly = false, writing = false, queued = false, timer = null, timerActive = false;
+function cloudOk() { return !!(cloud && cloud.configured); }
+function commit() {
+  state.updatedAt = new Date().toISOString();
+  saveLocal();
+  if (readOnly) return;
+  if (!cloudOk()) { if (syncEl.dataset.s !== "init") setSync("local"); return; }
+  setSync("saving");
+  clearTimeout(timer);
+  timerActive = true;
+  timer = setTimeout(flush, 700);
+}
+async function flush() {
+  timerActive = false;
+  if (!cloudOk() || readOnly) return;
+  if (writing) { queued = true; return; }
+  writing = true;
+  const body = JSON.parse(JSON.stringify(state));
+  try {
+    await cloud.save(body);
+    setSync(queued || timerActive ? "saving" : "cloud");
+  } catch (err) {
+    setSync("pending");
+  } finally {
+    writing = false;
+    if (queued && !readOnly) { queued = false; flush(); }
+  }
+}
+function initCloud() {
+  cloud = window.__cloud || null;
+  renderSetupBar();
+  if (!cloud) { setSync("local"); return; }
+  cloud.start(onRemote, onCloudStatus);
+}
+function onCloudStatus(s) {
+  if (s === "connecting") setSync("init");
+  else if (s === "error" || s === "local") setSync("local");
+  else if (s === "cloud" && !writing && !timerActive) setSync("cloud");
+}
+function onRemote(data, pending) {
+  if (pending) return;
+  if (!data) { if (!writing && !timerActive) setSync(state.updatedAt ? "pending" : "cloud"); return; }
+  const remote = normalize(data);
+  if (remote.updatedAt === state.updatedAt) { if (!writing && !timerActive) setSync("cloud"); return; }
+  const rt = Date.parse(remote.updatedAt) || 0, lt = Date.parse(state.updatedAt) || 0;
+  if (rt > lt) { state = remote; saveLocal(); applyAll(); setSync("cloud"); }
+  else if (!writing && !timerActive) setSync("pending");
+}
+const setupBar = $("#setupBar"), setupDlg = $("#setupDlg");
+function renderSetupBar() {
+  const on = cloudOk();
+  setupBar.hidden = false;
+  setupBar.dataset.on = on ? "1" : "0";
+  $("#setupText").textContent = on
+    ? "Синхронизация включена: план видит каждый, у кого есть ссылка."
+    : "Синхронизация не настроена — отметки живут только в этом браузере.";
+  $("#setupBtn").textContent = on ? "Ссылка для мамы" : "Настроить синхронизацию";
+}
+function closeDlg() { if (setupDlg.close) setupDlg.close(); else setupDlg.removeAttribute("open"); }
+function openSetup() {
+  const on = cloudOk();
+  $("#setupForm").hidden = on;
+  $("#setupDone").hidden = !on;
+  $("#setupErr").textContent = "";
+  if (on) $("#shareLink").value = cloud.link();
+  if (setupDlg.showModal) setupDlg.showModal(); else setupDlg.setAttribute("open", "");
+}
+async function flushNow() { clearTimeout(timer); timerActive = false; await flush(); }
+$("#setupBtn").addEventListener("click", openSetup);
+document.querySelectorAll(".dlg-close").forEach((b) => b.addEventListener("click", closeDlg));
+$("#setupSave").addEventListener("click", async () => {
+  const text = $("#cfgText").value.trim();
+  const err = $("#setupErr");
+  err.textContent = "";
+  if (!cloud) { err.textContent = "Страница открыта как файл — выложи её на хостинг и открой по адресу https://"; return; }
+  if (!text) { err.textContent = "Вставь блок с настройками из Firebase."; return; }
+  $("#setupSave").disabled = true;
+  try {
+    const link = await cloud.configure(text);
+    await flushNow();
+    cloud.start(onRemote, onCloudStatus);
+    renderSetupBar();
+    $("#setupForm").hidden = true;
+    $("#setupDone").hidden = false;
+    $("#shareLink").value = link;
+  } catch (e) {
+    err.textContent = e && e.message === "no-config"
+      ? "Не вижу настроек: скопируй блок целиком, вместе с apiKey и projectId."
+      : "Не получилось подключиться. Проверь, что база Firestore создана и правила опубликованы.";
+  } finally { $("#setupSave").disabled = false; }
+});
+$("#copyLink").addEventListener("click", async () => {
+  const btn = $("#copyLink");
+  try { await navigator.clipboard.writeText($("#shareLink").value); btn.textContent = "Скопировано"; }
+  catch (e) { $("#shareLink").select(); btn.textContent = "Выдели и скопируй"; }
+  setTimeout(() => { btn.textContent = "Скопировать ссылку"; }, 2400);
+});
+
+/* ---------- маршрут ---------- */
+const routeEl = $("#route");
+const nowEl = $("#now");
+const openMap = {};
+function statusOf(st) { if (TODAY > parseDay(st.end, true)) return "past"; if (TODAY >= parseDay(st.start)) return "current"; return "future"; }
+function currentIndex() {
+  let i = STATIONS.findIndex((s) => statusOf(s) === "current");
+  if (i === -1) { i = STATIONS.findIndex((s) => statusOf(s) === "future"); if (i === -1) i = STATIONS.length - 1; }
+  return i;
+}
+function dueChip(iso, done) {
+  const d = parseDay(iso), days = daysUntil(iso);
+  let cls = "chip due";
+  if (!done) { if (days < 0) cls += " late"; else if (days <= 21) cls += " soon"; }
+  return `<span class="${cls}" title="Ориентир по датам цикла 2026/27">≈ ${d.getDate()} ${MONTHS_GEN[d.getMonth()]}</span>`;
+}
+function taskHTML(t, prefix, compact) {
+  const done = !!state.done[t.id];
+  const cid = prefix + t.id;
+  const due = t.due ? dueChip(t.due, done) : "";
+  const tag = t.tag ? `<span class="chip">${TAGS[t.tag]}</span>` : "";
+  const cond = t.cond ? '<span class="chip cond">если актуально</span>' : "";
+  const links = compact ? "" : (t.links || []).map((l) => `<a class="t-link" href="${l[1]}" target="_blank" rel="noopener">${l[0]} ↗</a>`).join("");
+  const detail = !compact && t.d ? `<p class="t-detail">${t.d}</p>` : "";
+  return `<li class="task${done ? " done" : ""}" data-task="${t.id}"><span class="cb"><input type="checkbox" id="${cid}" data-id="${t.id}"${done ? " checked" : ""}><span class="box">${CHECK}</span></span><div><label class="t-title" for="${cid}">${t.t}</label>${detail}<div class="t-meta">${due}${tag}${cond}${links}</div></div></li>`;
+}
+function renderRoute() {
+  const cur = currentIndex();
+  routeEl.innerHTML = STATIONS.map((st, i) => {
+    const status = statusOf(st);
+    const n = st.tasks.filter((t) => state.done[t.id]).length;
+    const complete = n === st.tasks.length;
+    const open = st.id in openMap ? openMap[st.id] : (i === cur || i === cur + 1);
+    const here = i === cur && status === "current" ? '<span class="here">ты здесь</span>' : "";
+    return `<li class="stn ${status}${complete ? " complete" : ""}"><span class="node" aria-hidden="true"></span><details data-st="${st.id}"${open ? " open" : ""}><summary><span class="code">${st.code}${here}</span><span class="sname">${st.name}</span><span class="count"><span data-count="${st.id}">${n}/${st.tasks.length}</span>${CHEV}</span></summary><ul class="tasks">${st.tasks.map((t) => taskHTML(t, "cb-", false)).join("")}</ul></details></li>`;
+  }).join("");
+  routeEl.querySelectorAll("details").forEach((d) => d.addEventListener("toggle", () => { openMap[d.dataset.st] = d.open; }));
+}
+function renderNow() {
+  const cur = currentIndex();
+  const st = STATIONS[cur];
+  const next = [];
+  for (let i = cur; i < STATIONS.length && next.length < 3; i++) {
+    for (const t of STATIONS[i].tasks) { if (!state.done[t.id] && !t.cond) { next.push(t); if (next.length === 3) break; } }
+  }
+  const tails = STATIONS.slice(0, cur).reduce((a, s) => a + s.tasks.filter((t) => !state.done[t.id] && !t.cond).length, 0);
+  const n = st.tasks.filter((t) => state.done[t.id]).length;
+  const chips = MILESTONES.map((m) => {
+    const days = daysUntil(m.date);
+    if (days < 0) return "";
+    return `<span class="cd">${m.label} <b>${m.approx ? "≈ " : ""}${days} ${plural(days, "день", "дня", "дней")}</b></span>`;
+  }).join("");
+  const tailBtn = tails ? ` <button type="button" class="linkish" data-jump="tails">Хвосты с прошлых этапов: ${tails}</button>` : "";
+  nowEl.innerHTML = `<p class="kicker">Сейчас · ${MONTHS_NOM[TODAY.getMonth()]} ${TODAY.getFullYear()}</p>
+    <h2 class="now-title">Этап «${st.name}»: ${n} из ${st.tasks.length}</h2>
+    <p class="now-sub">${next.length ? "Следующие шаги — отмечай прямо здесь." : "Все шаги отмечены."}${tailBtn}</p>
+    ${next.length ? `<ul class="tasks">${next.map((t) => taskHTML(t, "now-", true)).join("")}</ul>` : ""}
+    ${chips ? `<div class="chips">${chips}</div>` : ""}`;
+}
+function updateProgress() {
+  const total = ALL_TASKS.length;
+  const done = ALL_TASKS.filter((t) => state.done[t.id]).length;
+  $("#doneCount").textContent = done;
+  $("#totalCount").textContent = total;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  $("#progressBar").style.width = pct + "%";
+  $("#progressWrap").setAttribute("aria-valuenow", String(pct));
+}
+let nowTimer = null;
+function setDone(id, val) {
+  const t = TASK_BY_ID[id];
+  if (!t) return;
+  if (val) state.done[id] = true; else delete state.done[id];
+  document.querySelectorAll(`input[data-id="${id}"]`).forEach((i) => { i.checked = val; });
+  document.querySelectorAll(`[data-task="${id}"]`).forEach((li) => {
+    li.classList.toggle("done", val);
+    const chip = li.querySelector(".chip.due");
+    if (chip && t.due) chip.outerHTML = dueChip(t.due, val);
+  });
+  const st = STATIONS.find((s) => s.tasks.includes(t));
+  const n = st.tasks.filter((x) => state.done[x.id]).length;
+  const c = routeEl.querySelector(`[data-count="${st.id}"]`);
+  if (c) c.textContent = n + "/" + st.tasks.length;
+  const det = routeEl.querySelector(`details[data-st="${st.id}"]`);
+  if (det) det.parentElement.classList.toggle("complete", n === st.tasks.length);
+  updateProgress();
+  commit();
+  clearTimeout(nowTimer);
+  nowTimer = setTimeout(() => { const inNow = nowEl.contains(document.activeElement); renderNow(); if (inNow) { const first = nowEl.querySelector("input[data-id]"); if (first) first.focus(); } }, 450);
+}
+const hideEl = $("#hideDone");
+function applyHideDone() { hideEl.checked = !!state.hideDone; document.body.classList.toggle("hide-done", !!state.hideDone); }
+
+/* ---------- деньги ---------- */
+function fieldRow(k, label, hint) {
+  return `<div class="row"><label for="b-${k}">${label}</label><span class="hint">${hint || ""}</span><span class="ctrl"><input class="num" id="b-${k}" data-b="${k}" type="number" inputmode="decimal" min="0" step="5" value="${Math.round(state.budget[k])}"><span class="unit">€/мес</span></span></div>`;
+}
+function renderBudgetForm() {
+  const scn = SCENARIOS[state.budget.scenario] || SCENARIOS.residence;
+  const hints = Object.assign({}, BASE_HINTS, scn.hints);
+  document.querySelectorAll("#scnGroup [data-scn]").forEach((b) => { const on = b.dataset.scn === state.budget.scenario; b.setAttribute("aria-checked", on ? "true" : "false"); b.tabIndex = on ? 0 : -1; });
+  $("#scnNote").textContent = scn.note;
+  const opts = TUITION.map((o) => `<option value="${o.id}"${o.id === state.budget.tuition ? " selected" : ""}>${o.label}</option>`).join("");
+  $("#budgetForm").innerHTML = `<p class="kicker group-label">Расходы в месяц</p>
+    <div class="form">${EXP_FIELDS.map((f) => fieldRow(f[0], f[1], hints[f[0]])).join("")}
+      <div class="row wide"><label for="b-tuition">Плата за учёбу</label><span class="hint">годовая сумма, делённая на 12</span><span class="ctrl"><select class="sel" id="b-tuition" data-b="tuition">${opts}</select></span></div>
+    </div>
+    <p class="kicker group-label">Доходы и лимит</p>
+    <div class="form">${INC_FIELDS.map((f) => fieldRow(f[0], f[1], hints[f[0]])).join("")}${fieldRow("limit", "Лимит от семьи", hints.limit)}</div>`;
+}
+function calc() {
+  const b = state.budget;
+  const tu = (TUITION.find((o) => o.id === b.tuition) || TUITION[1]).year / 12;
+  const housing = b.rent + b.utilities, food = b.food, other = b.transport + b.phone + b.materials + b.personal;
+  const exp = housing + food + tu + other;
+  const inc = b.stipend + b.work;
+  const need = exp - inc;
+  return { tu, housing, food, other, exp, inc, need, limit: b.limit, over: need - b.limit, gapNoWork: exp - b.stipend - b.limit };
+}
+function renderBudgetResult() {
+  const r = calc();
+  $("#resExp").textContent = eur(r.exp);
+  $("#resNeed").innerHTML = eur(Math.max(0, r.need)) + `<small>из ${eur(r.limit)}</small>`;
+  const parts = [["Жильё и счета", r.housing, "var(--seg-1)"], ["Еда", r.food, "var(--seg-2)"], ["Учёба", r.tu, "var(--seg-3)"], ["Остальное", r.other, "var(--seg-4)"]];
+  const cover = r.limit + r.inc;
+  const scale = Math.max(r.exp, cover, 1) * 1.06;
+  const segs = parts.filter((p) => p[1] > 0).map((p) => `<span class="s" style="width:${((p[1] / scale) * 100).toFixed(2)}%;background:${p[2]}"></span>`).join("");
+  const pos = (cover / scale) * 100;
+  const label = "семья " + eur(r.limit) + (r.inc > 0 ? " + доходы " + eur(r.inc) : "");
+  $("#resStack").innerHTML = segs + `<span class="limit${pos > 55 ? " flip" : ""}" style="left:${pos.toFixed(2)}%"><span>${label}</span></span>`;
+  $("#resLegend").innerHTML = parts.map((p) => `<span><i style="background:${p[2]}"></i>${p[0]} ${eur(p[1])}</span>`).join("");
+  const st = $("#resStatus");
+  const rate = state.work.rate > 0 ? state.work.rate : 10;
+  if (r.need <= 0) { st.className = "status ok"; st.textContent = "Стипендия и подработка покрывают всё — остаётся " + eur(-r.need) + " в месяц."; }
+  else if (r.over <= 0) { st.className = "status ok"; st.textContent = "Укладываешься в лимит: запас " + eur(-r.over) + " в месяц."; }
+  else { const h = Math.ceil(r.over / ((rate * 52) / 12)); st.className = "status bad"; st.textContent = `Сверх лимита на ${eur(r.over)} в месяц — это ≈ ${h} ${plural(h, "час", "часа", "часов")} подработки в неделю по ${eurRate(rate)} в час.`; }
+  $("#resInc").textContent = eur(r.inc);
+  $("#resTuition").textContent = eur(r.tu);
+  $("#resYear").textContent = eur(Math.max(0, r.need) * 12);
+}
+function renderCosts() {
+  const fmt = (c) => (c.min === c.max ? eur(c.min) : eur(c.min) + "–" + nf.format(c.max));
+  const min = COSTS.reduce((a, c) => a + c.min, 0), max = COSTS.reduce((a, c) => a + c.max, 0);
+  $("#costs").innerHTML = COSTS.map((c) => `<div class="row"><span>${c.label}</span><span class="hint">${c.hint}</span><span class="val">${fmt(c)}</span></div>`).join("") +
+    `<div class="row total"><span>Итого</span><span class="hint">без ноутбука и аренды</span><span class="val">${eur(min)}–${nf.format(max)}</span></div>`;
+}
+function renderCities() {
+  const max = 800;
+  $("#cityBars").innerHTML = CITIES.map((c) => {
+    const pct = (c[1] / max) * 100;
+    const inside = pct > 70;
+    return `<div class="hb${c[2] ? " hl" : ""}"><span>${c[0]}</span><div class="track"><div class="fill" style="width:${pct}%"></div><span class="val${inside ? " in" : ""}" style="left:${pct}%">€${c[1]}</span></div></div>`;
+  }).join("");
+}
+
+/* ---------- работа ---------- */
+function renderWorkInputs() { $("#w-hours").value = state.work.hours; $("#w-rate").value = state.work.rate; }
+function renderWork() {
+  const { hours, rate } = state.work;
+  const month = (hours * rate * 52) / 12;
+  $("#wMonth").textContent = eur(month);
+  const r = calc();
+  const scn = (SCENARIOS[state.budget.scenario] || SCENARIOS.residence).name;
+  const g = $("#wGap");
+  if (r.gapNoWork > 0) {
+    const tail = rate > 0 ? (() => { const h = Math.ceil(r.gapNoWork / ((rate * 52) / 12)); return ` — при ${eurRate(rate)} в час это ≈ ${h} ${plural(h, "час", "часа", "часов")} в неделю.`; })() : ".";
+    g.textContent = `В бюджете «${scn}» до лимита не хватает ${eur(r.gapNoWork)} в месяц${tail}`;
+  } else {
+    g.textContent = `В бюджете «${scn}» лимита хватает и без подработки — всё заработанное пойдёт в запас.`;
+  }
+}
+
+/* ---------- вкладки ---------- */
+function showTab(id, opts) {
+  if (!TAB_IDS.includes(id)) id = "route";
+  TAB_IDS.forEach((t) => {
+    const on = t === id;
+    const b = $("#tab-" + t);
+    b.setAttribute("aria-selected", on ? "true" : "false");
+    b.tabIndex = on ? 0 : -1;
+    $("#panel-" + t).hidden = !on;
+  });
+  try { localStorage.setItem(LS_TAB, id); } catch (e) { /* нет хранилища */ }
+  if (opts && opts.scroll) { const p = $("#panel-" + id); if (p.getBoundingClientRect().top < 0) p.scrollIntoView({ block: "start" }); }
+  if (opts && opts.focus) $("#tab-" + id).focus();
+}
+
+function applyAll() {
+  renderRoute(); renderNow(); updateProgress(); applyHideDone();
+  const ae = document.activeElement;
+  const editing = ae && ae.closest && (ae.closest("#budgetForm") || ae.closest(".wcalc"));
+  if (!editing) { renderBudgetForm(); renderWorkInputs(); }
+  renderBudgetResult(); renderWork();
+}
+
+/* ---------- события ---------- */
+document.addEventListener("change", (e) => {
+  const el = e.target;
+  if (el && el.matches && el.matches("input[type=checkbox][data-id]")) setDone(el.dataset.id, el.checked);
+});
+hideEl.addEventListener("change", () => { state.hideDone = hideEl.checked; applyHideDone(); commit(); });
+nowEl.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-jump]");
+  if (!b) return;
+  const cur = currentIndex();
+  let firstId = null;
+  STATIONS.slice(0, cur).forEach((s) => { if (s.tasks.some((t) => !state.done[t.id] && !t.cond)) { openMap[s.id] = true; if (!firstId) firstId = s.id; } });
+  renderRoute();
+  if (firstId) { const d = routeEl.querySelector(`details[data-st="${firstId}"]`); if (d) d.parentElement.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); }
+});
+
+const tabsEl = document.querySelector(".tabs");
+tabsEl.addEventListener("click", (e) => { const b = e.target.closest("[data-tab]"); if (b) showTab(b.dataset.tab, { scroll: true }); });
+tabsEl.addEventListener("keydown", (e) => {
+  if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) return;
+  const cur = TAB_IDS.findIndex((t) => $("#tab-" + t).getAttribute("aria-selected") === "true");
+  let i = cur;
+  if (e.key === "ArrowLeft") i = (cur + TAB_IDS.length - 1) % TAB_IDS.length;
+  if (e.key === "ArrowRight") i = (cur + 1) % TAB_IDS.length;
+  if (e.key === "Home") i = 0;
+  if (e.key === "End") i = TAB_IDS.length - 1;
+  e.preventDefault();
+  showTab(TAB_IDS[i], { focus: true });
+});
+
+const scnGroup = $("#scnGroup");
+function pickScenario(id, focus) {
+  if (!SCENARIOS[id]) return;
+  Object.assign(state.budget, SCENARIOS[id].values, { scenario: id });
+  renderBudgetForm(); renderBudgetResult(); renderWork(); commit();
+  if (focus) { const b = scnGroup.querySelector(`[data-scn="${id}"]`); if (b) b.focus(); }
+}
+scnGroup.addEventListener("click", (e) => { const b = e.target.closest("[data-scn]"); if (b) pickScenario(b.dataset.scn); });
+scnGroup.addEventListener("keydown", (e) => {
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
+  const ids = Object.keys(SCENARIOS);
+  const cur = ids.indexOf(state.budget.scenario);
+  const step = e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 1;
+  e.preventDefault();
+  pickScenario(ids[(cur + step + ids.length) % ids.length], true);
+});
+
+const budgetFormEl = $("#budgetForm");
+function onBudgetInput(e) {
+  const el = e.target;
+  const k = el.dataset && el.dataset.b;
+  if (!k) return;
+  if (k === "tuition") state.budget.tuition = el.value;
+  else { let v = parseFloat(String(el.value).replace(",", ".")); if (!isFinite(v) || v < 0) v = 0; state.budget[k] = Math.min(v, 100000); }
+  renderBudgetResult(); renderWork(); commit();
+}
+budgetFormEl.addEventListener("input", onBudgetInput);
+budgetFormEl.addEventListener("change", (e) => { if (e.target && e.target.id === "b-tuition") onBudgetInput(e); });
+
+["w-hours", "w-rate"].forEach((id) => {
+  $("#" + id).addEventListener("input", (e) => {
+    let v = parseFloat(String(e.target.value).replace(",", "."));
+    if (!isFinite(v) || v < 0) v = 0;
+    if (id === "w-hours") state.work.hours = Math.min(v, 80); else state.work.rate = Math.min(v, 500);
+    renderWork(); renderBudgetResult(); commit();
+  });
+});
+const applyBtn = $("#wApply");
+let applyTimer = null;
+applyBtn.addEventListener("click", () => {
+  const month = Math.round((state.work.hours * state.work.rate * 52) / 12);
+  state.budget.work = month;
+  renderBudgetForm(); renderBudgetResult(); renderWork(); commit();
+  applyBtn.textContent = "Добавлено в бюджет: " + eur(month) + " в месяц";
+  clearTimeout(applyTimer);
+  applyTimer = setTimeout(() => { applyBtn.textContent = "Учесть в бюджете"; }, 2600);
+});
+
+/* ---------- старт ---------- */
+renderRoute(); renderNow(); updateProgress(); applyHideDone();
+renderBudgetForm(); renderBudgetResult(); renderCosts(); renderCities();
+renderWorkInputs(); renderWork();
+let initialTab = (location.hash || "").replace("#", "");
+if (!TAB_IDS.includes(initialTab)) { try { initialTab = localStorage.getItem(LS_TAB) || "route"; } catch (e) { initialTab = "route"; } }
+showTab(initialTab);
+if (window.__cloud) initCloud();
+else window.addEventListener("cloud-ready", initCloud, { once: true });
+})();
+</script>
+
+<script type="module">
+const raw = (location.hash || "").replace(/^#/, "") || (location.search || "").replace(/^\?/, "");
+const PARAM = new URLSearchParams(raw);
+const LS_CFG = "milan-cloud-v1";
+const FB = "https://www.gstatic.com/firebasejs/10.13.2/";
+
+function b64encode(s) { return btoa(unescape(encodeURIComponent(s))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+function b64decode(s) { s = s.replace(/-/g, "+").replace(/_/g, "/"); const pad = s.length % 4 ? "=".repeat(4 - (s.length % 4)) : ""; return decodeURIComponent(escape(atob(s + pad))); }
+function parseConfig(text) {
+  const out = {};
+  const re = /(apiKey|authDomain|projectId|storageBucket|messagingSenderId|appId|databaseURL|measurementId)["']?\s*:\s*["']([^"']+)["']/g;
+  let m;
+  while ((m = re.exec(text))) out[m[1]] = m[2];
+  if (out.apiKey && out.projectId) return out;
+  try { const j = JSON.parse(text); if (j.apiKey && j.projectId) return j; } catch (e) { /* не JSON */ }
+  return null;
+}
+function randomId() {
+  const a = new Uint8Array(16);
+  (crypto || window.crypto).getRandomValues(a);
+  return Array.from(a).map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+function saveLocalCfg(cfg, plan) { try { localStorage.setItem(LS_CFG, JSON.stringify({ cfg, plan })); } catch (e) { /* нет хранилища */ } }
+function loadLocalCfg() { try { const s = localStorage.getItem(LS_CFG); return s ? JSON.parse(s) : null; } catch (e) { return null; } }
+
+let cfg = null, plan = null, connected = false, saveFn = null;
+const handlers = { remote: null, status: null };
+
+if (PARAM.get("cfg")) {
+  try { cfg = JSON.parse(b64decode(PARAM.get("cfg"))); plan = PARAM.get("p") || null; } catch (e) { cfg = null; }
+}
+if (!cfg) { const saved = loadLocalCfg(); if (saved && saved.cfg && saved.plan) { cfg = saved.cfg; plan = saved.plan; } }
+if (cfg && plan) saveLocalCfg(cfg, plan);
+
+async function connect() {
+  const [appMod, fsMod] = await Promise.all([import(FB + "firebase-app.js"), import(FB + "firebase-firestore.js")]);
+  const app = appMod.initializeApp(cfg);
+  let db;
+  try {
+    db = fsMod.initializeFirestore(app, { localCache: fsMod.persistentLocalCache({ tabManager: fsMod.persistentMultipleTabManager() }) });
+  } catch (e) {
+    db = fsMod.getFirestore(app);
+  }
+  const ref = fsMod.doc(db, "plans", plan);
+  saveFn = (data) => fsMod.setDoc(ref, data);
+  connected = true;
+  fsMod.onSnapshot(
+    ref,
+    (snap) => {
+      if (handlers.remote) handlers.remote(snap.exists() ? snap.data() : null, snap.metadata.hasPendingWrites);
+      if (handlers.status) handlers.status("cloud");
+    },
+    () => { if (handlers.status) handlers.status("error"); }
+  );
+}
+
+window.__cloud = {
+  get configured() { return !!(cfg && plan); },
+  link() {
+    if (!this.configured) return "";
+    const u = new URL(location.href);
+    u.search = "";
+    u.hash = "cfg=" + b64encode(JSON.stringify(cfg)) + "&p=" + plan;
+    return u.toString();
+  },
+  start(onRemote, onStatus) {
+    handlers.remote = onRemote;
+    handlers.status = onStatus;
+    if (!this.configured) { onStatus("local"); return; }
+    if (connected) { onStatus("cloud"); return; }
+    onStatus("connecting");
+    connect().catch(() => onStatus("error"));
+  },
+  save(data) { return saveFn ? saveFn(data) : Promise.reject(new Error("not-connected")); },
+  async configure(text) {
+    const parsed = parseConfig(text);
+    if (!parsed) throw new Error("no-config");
+    cfg = parsed;
+    plan = plan || PARAM.get("p") || randomId();
+    await connect();
+    saveLocalCfg(cfg, plan);
+    try { history.replaceState(null, "", this.link()); } catch (e) { /* без истории */ }
+    return this.link();
+  }
+};
+window.dispatchEvent(new Event("cloud-ready"));
+</script>
+
+<script>
+if ("serviceWorker" in navigator && location.protocol === "https:") {
+  window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => { /* офлайн-режим недоступен */ }); });
+}
+</script>
+</body>
+</html>
